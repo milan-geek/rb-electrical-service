@@ -1337,6 +1337,7 @@ input[type="number"]::-webkit-outer-spin-button {
 :root {
     --primary-color: #004594;
     --green-color: #00A64E;
+    --sec-clip-path-color: #F6F8FA;
     --dark-color: #000000;
     --common-color: #16273D;
     --white-color: #ffffff;
@@ -1589,6 +1590,7 @@ a:hover {
     transition: 0.3s;
 }
 
+.main-navigation ul ul li.current_page_item a,
 .main-navigation ul ul li a:hover {
     background-color: var(--green-color);
     color: var(--white-color);
@@ -1761,6 +1763,47 @@ a:hover {
 .common-text-btn{
     margin-top: 47px;
 }
+
+.clip-path{
+    position: relative;
+}
+
+.clip-path::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #F6F8FA;
+    clip-path: polygon(100% 0, 100% 65%, 70% 100%, 0 77%, 0 14%);
+}
+
+.clip-path.clip-path-02::before{
+    clip-path: polygon(100% 43%, 100% 100%, 0 100%, 0 35%, 39% 0);
+}
+
+.clip-path.clip-path-03::before{
+    clip-path: polygon(100% 0, 100% 69%, 72% 100%, 0 69%, 0 0);
+}
+
+.other-services-list{
+    column-count: 3;
+    column-gap: 100px;
+    width: 1091px;
+    max-width: 100%;
+}
+
+.other-services-list li .other-services-list-icon{
+    color: var(--green-color);
+}
+
+.other-services-list li{
+    display: inline-flex;
+    gap: 12px;
+    margin-bottom: 5px;
+}
+
 
 /*==========Common CSS End==========*/
 
@@ -2320,27 +2363,6 @@ button.close:hover {
 
 /*==========Main Services Section CSS Start==========*/
 
-.main-service-sec section:first-child{
-    position: relative;
-}
-.main-service-sec section:first-child::before{
-    content: '';
-    width: 100%;
-    height: 100%;
-    background-color: red;
-    position: absolute;
-    top: 0;
-    left: 0;
-    clip-path: polygon(100% 0, 100% 65%, 70% 100%, 0 77%, 0 14%);
-}
-
-.clip-path-top{
-    
-}
-
-
-
-
 /*==========Residential Services Section CSS Start==========*/
 
 .residential-services-sec{
@@ -2739,15 +2761,80 @@ button.close:hover {
 
 /*========== Inner Page CSS end ==========*/
 
-/*=============== Sevices [Page] CSS Start ===============*/
+/*===============Residential Sevices [Page] CSS Start ===============*/
 
-/*========== Residential Page CSS Start ==========*/
+/*========== Residential First Section CSS Start ==========*/
+
 .resident-first-sec{
     padding: 100px 0 87px 0;
 }
-/*========== Residential Page CSS end ==========*/
 
-/*=============== Sevices [Page] CSS End ===============*/
+/*========== Residential First Section CSS End ==========*/
+
+/*========== Residential Main Section CSS Start ==========*/
+.electrical-code-sec{
+    padding: 163px 0 224px 0;
+}
+
+.electrical-code-sec .sec-title{
+    text-align: center;
+    margin-bottom: 101px;
+}
+
+.decorative-lighting-sec{
+    padding: 224px 0 84px 0;
+    margin-top: -58px;
+}
+
+.ceiling-fans-sec{
+    padding: 82px 0 49px 0;
+}
+/*========== Residential Main Section CSS End ==========*/
+
+/*========== Among Other Services CSS End ==========*/
+
+.among-other-services-sec{
+    padding: 127px 0 110px 0;
+}
+
+.among-other-contant-box .sec-title{
+    margin-bottom: 40px;
+}
+
+/*========== Among Other Services CSS End ==========*/
+
+/*===============Residential Sevices [Page] CSS End ===============*/
+
+/*===============Service and Repair [Page] CSS Start ===============*/
+
+/*==========Service and Repair First Section CSS Start ==========*/
+
+.services-and-repair-first-sec{
+    padding: 100px 0 54px 0;
+}
+
+.services-and-repair-first-sec .common-image{
+    height: 742px;
+}
+
+/*==========Service and Repair First Section CSS End ==========*/
+
+/*==========Service and Repair Main Section CSS Start ==========*/
+
+.electrical-panel-sec{
+    padding: 163px 0 224px 0;
+}
+
+.electrical-panel-sec .sec-title{
+    text-align: center;
+    margin-bottom: 101px;
+}
+
+/*==========Service and Repair Main Section CSS End ==========*/
+
+/*===============Service and Repair [Page] CSS End ===============*/
+
+
 
 
 

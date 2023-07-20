@@ -72,7 +72,7 @@
 <!-- main services section start -->
 <section class="main-service-sec">
 
-    <section class="residential-services-sec clip-path-top">
+    <section class="residential-services-sec clip-path">
         <div class="sec-wp">
             <div class="container">
                 <div class="row">
@@ -140,8 +140,7 @@
         </div>
     </section>
 
-    <section class="backup-generator-services-sec back-img"
-        style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-bg-image02.png)">
+    <section class="backup-generator-services-sec clip-path clip-path-02">
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
@@ -173,8 +172,7 @@
         </div>
     </section>
 
-    <section class="electric-charger-sevices-sec back-img"
-        style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-bg-image03.png)">
+    <section class="electric-charger-sevices-sec clip-path clip-path-03">
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
