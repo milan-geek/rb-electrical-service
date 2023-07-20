@@ -158,6 +158,7 @@ function rb_electrical_service_scripts() {
 	wp_enqueue_style('rb-electrical-service-all', get_template_directory_uri() . '/assets/css/all.min.css', array(), '20151215');
 	wp_enqueue_style('rb-electrical-service-slick', get_template_directory_uri() . '/assets/css/slick.css', array(), '20151215');
 	wp_enqueue_style('rb-electrical-service-slick-theme', get_template_directory_uri() . '/assets/css/slick-theme.css', array(), '20151215');
+	// wp_enqueue_style('rb-electrical-service-fancybox-min', get_template_directory_uri() . '/assets/css/fancybox-css-file.css', array(), '20151215');
 	wp_enqueue_style('rb-electrical-service-fancybox-min', get_template_directory_uri() . '/assets/css/jquery.fancybox.min.css', array(), '20151215');
 	wp_enqueue_style('rb-electrical-service-simplebar-css', get_template_directory_uri() . '/assets/css/simplebar.css', array(), '20151215');
 
@@ -165,12 +166,13 @@ function rb_electrical_service_scripts() {
 	wp_enqueue_script('jquery');
 	wp_style_add_data( 'rb-electrical-service-style', 'rtl', 'replace' );
 
+	// wp_enqueue_script('rb-electrical-service-jquery', get_template_directory_uri() . '/assets/js/code.jquery.com_jquery-3.7.0.min.js', array(), '20151215', true);
 	wp_enqueue_script('rb-electrical-service-bootstrap', get_template_directory_uri() . '/assets/js/bootstrap.min.js', array(), '20151215', true);
 	wp_enqueue_script('rb-electrical-service-simplebar-js', get_template_directory_uri() . '/assets/js/simplebar.js', array(), '20151215', true);
 	wp_enqueue_script('rb-electrical-service-slick', get_template_directory_uri() . '/assets/js/slick.min.js', array(), '20151215', true);
+	// wp_enqueue_style('rb-electrical-service-fancybox-min', get_template_directory_uri() . '/assets/js/fancybox-js-file.js', array(), '20151215', true);
 	wp_enqueue_script('rb-electrical-service-fancybox-min', get_template_directory_uri() . '/assets/js/jquery.fancybox.min.js', array(), '20151215', true);
 	wp_enqueue_script('rb-electrical-service-wow-min', get_template_directory_uri() . '/assets/js/wow.min.js', array(), '20151215', true);
-	// wp_enqueue_script('rb-electrical-service-font-awesome-min', get_template_directory_uri() . '/assets/js/font-awesome.min.js', array(), '20151215', true);
 	wp_enqueue_script('rb-electrical-service-custom', get_template_directory_uri() . '/assets/js/custom.js', array(), rand(1000, 10000), true);
 	wp_localize_script('rb-electrical-service-custom', 'custom_call', ['ajaxurl' => admin_url('admin-ajax.php'), 'homeurl' => home_url()]);
 

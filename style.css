@@ -1700,6 +1700,64 @@ a:hover {
     padding-right: 60px;
 }
 
+.common-image{
+    width: 100%;
+    height: 552px;
+    position: relative;
+    border-radius: 6px;
+}
+
+.common-image::before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 430px;
+    height: 50px;
+    background-color: var(--green-color);
+    opacity: .5;
+    border-radius: 6px  ;
+    z-index: -1;
+}
+
+.common-image::after{
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 390px;
+    height: 50px;
+    background-color: var(--green-color);
+    opacity: .3;
+    border-radius: 6px  ;
+    z-index: -1;
+}
+.common-text-contant{
+    max-width: 570px;
+}
+
+.common-text-contant.ml-auto{
+    margin-left: auto;
+}
+
+.common-text-contant .sec-title.common-sec-title{
+    margin-bottom: 40px;
+}
+
+.common-text-contant .common-sec-title{
+    margin-bottom: 38px;
+}
+
+.common-text-contant .common-description-text p:last-of-type{
+    margin-bottom: 0px;
+}
+
+.common-text-btn{
+    margin-top: 47px;
+}
+
 /*==========Common CSS End==========*/
 
 /* ===================================================================================================================================================== */
@@ -2079,7 +2137,13 @@ button.close:hover {
     left: 0;
     width: 100%;
     height: 90px;
+    box-shadow: 0 1px 2px rgb(0, 0, 0, 8%);
     z-index: 100;
+}
+
+.sticky_head {
+    position: fixed;
+    width: 100%;
 }
 
 .site-branding{
@@ -2166,7 +2230,7 @@ button.close:hover {
 
 .main-banner{
     clip-path: polygon(0 0, 100% 0, 100% 75%, 100% 75%, 31% 100%, 0 75%);
-    padding: 238px 0 233px 0;
+    padding: 226px 0 233px 0;
     position: relative;
 }
 
@@ -2218,64 +2282,6 @@ button.close:hover {
 
 .about-sec .common-image.back-img{
     background-position: top;
-}
-
-.common-image{
-    width: 100%;
-    height: 552px;
-    position: relative;
-    border-radius: 6px;
-}
-
-.common-image::before{
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 430px;
-    height: 50px;
-    background-color: var(--green-color);
-    opacity: .5;
-    border-radius: 6px  ;
-    z-index: -1;
-}
-
-.common-image::after{
-    content: '';
-    position: absolute;
-    bottom: -20px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 390px;
-    height: 50px;
-    background-color: var(--green-color);
-    opacity: .3;
-    border-radius: 6px  ;
-    z-index: -1;
-}
-.common-text-contant{
-    max-width: 570px;
-}
-
-.common-text-contant.ml-auto{
-    margin-left: auto;
-}
-
-.common-text-contant .sec-title.common-sec-title{
-    margin-bottom: 40px;
-}
-
-.common-text-contant .common-sec-title{
-    margin-bottom: 38px;
-}
-
-.common-text-contant .common-description-text p:last-of-type{
-    margin-bottom: 0px;
-}
-
-.common-text-btn{
-    margin-top: 47px;
 }
 
 .we-are-ready-to-take{
@@ -2463,6 +2469,11 @@ button.close:hover {
     padding: 0px;
 }
 
+.gallery-contant-box{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
 .gallery-contant-box .gallery-image{
     width: 100%;
     height: 236px;
@@ -2470,24 +2481,8 @@ button.close:hover {
     border-radius: 6px;
 }
 
-.gallery-slider.slick-slider [class*=col-]{
-    padding-right: 4px;
-    padding-left: 4px;
-}
 
 /*==========Gallery Section CSS End==========*/
-
-
-/* ============================================================================================================================================ */
-/* ============================================================================================================================================ */
-/* ============================================================================================================================================ */
-/* ============================================================================================================================================ */
-/* ============================================================================================================================================ */
-/* ============================================================================================================================================ */
-/* ============================================================================================================================================ */
-/* ============================================================================================================================================ */
-/* ============================================================================================================================================ */
-
 
 /*==========Footer CSS Start==========*/
 .footer-top-box{
@@ -2518,7 +2513,7 @@ button.close:hover {
 }
 
 .social-info{
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 36px;
     margin-bottom: 41px;
@@ -2545,134 +2540,138 @@ button.close:hover {
     line-height: 21px;
 }
 
-.footer-services-link-box{
+.footer-page-link-box{
     margin-left: -30px;
 }
 
-.footer-services-link-box .h5-title{
+.footer-page-link-box .h5-title{
     margin-bottom: 38px;
 }
 
-.footer-services-link-box .footer-services-link li{
+.footer-page-link-box .footer-page-link li{
     margin-bottom: 10px;
 }
 
-.footer-services-link-box .footer-services-link li a{
+.footer-page-link-box .footer-page-link li a{
     color: var(--white-color);
 }
 
-.footer-services-link-box .footer-services-link li.page-active a,
-.footer-services-link-box .footer-services-link li a:hover{
+.footer-page-link-box .footer-page-link li.page-active a,
+.footer-page-link-box .footer-page-link li a:hover{
     color: var(--green-color);
 }
 
-
-/* ========================== */
-
 .footer-bottom-box {
     position: relative;
-    padding: 40px 0;
+    padding: 36px 0;
 }
 
-.footer-bottom-text {
+.footer-bottom-link{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
-.copy-right,
-.footer-other-link {
-    display: inline-block;
-}
-
-.copy-right p,
-.footer-other-link p {
+.footer-bottom-link li{
     font-size: 14px;
-    line-height: 24px;
-    margin-bottom: 0;
-}
-
-.footer-bottom-link {
-    display: inline-block;
-    text-align: center;
-}
-
-.footer-bottom-link ul {
-    font-size: 0;
-    line-height: 1;
-    list-style: none;
-    margin: 0;
-}
-
-.footer-bottom-link ul li {
-    font-size: 14px;
-    line-height: 24px;
-    display: inline-block;
+    font-weight: 300;
+    color: #16273D;
+    line-height: 17px;
     padding-right: 8px;
     margin-right: 8px;
-    border-right: 1px solid var(--common-color);
+    border-right: 1px solid #16273D;
 }
 
-.footer-bottom-link ul li:last-child {
-    margin-right: 0;
-    padding-right: 0;
-    border-right: 0;
+.footer-bottom-link li a{
+    color: #16273D;
 }
 
-.footer-bottom-link ul li a {
+.footer-bottom-link li a:hover{
+    color: var(--green-color);
+}
+
+.footer-bottom-link li:last-child{
+    padding-right: 0px;
+    margin-right: 0px;
+    border-right: none;
+}
+
+.footer-bottom-right-contant{
+    text-align: right;
+}
+
+.footer-bottom-other-link p{
     font-size: 14px;
-    line-height: 24px;
-    color: var(--common-color);
-    transition: 0.3s;
+    line-height: 17px;
+    color: #16273D;
+    margin-bottom: 0px;
 }
 
-.footer-bottom-link ul li a:hover {
-    color: var(--primary-color);
+.footer-bottom-other-link p a{
+    color: #16273D;
 }
 
-.footer-other-link p a {
-    color: var(--primary-color);
-    font-weight: bold;
-    transition: 0.3s;
+.footer-bottom-other-link p a.footer-bottom-site-name{
+    font-weight: 700;
+    text-decoration: underline !important;
 }
 
-.footer-other-link p a:hover {
-    color: var(--dark-color);
+.footer-bottom-other-link p a:hover{
+    color: var(--green-color);
 }
 
-.footer-other-link p i {
-    color: var(--primary-color);
-}
 /*==========Footer CSS End==========*/
 
 
 /*==========Scroll To Top CSS Start==========*/
+
 .scrolltop {
     position: fixed;
     bottom: 10px;
     right: 10px;
     width: 50px;
     height: 50px;
-    background: var(--primary-color);
+    background-color: var(--primary-color);
     border: none;
     color: var(--white-color) !important;
     font-size: 25px;
     line-height: 30px;
     text-align: center;
-    padding: 13px 0;
+    padding: 5px;
     border-radius: 8px;
     box-shadow: 0 0 20px rgb(0 0 0 / 16%);
     cursor: pointer;
-    display: none;
-    z-index: 50;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
     transition: .3s;
 }
 
 .scrolltop:hover {
-    background: var(--dark-color);
-    color: var(--white-color) !important;
+    background-color: var(--green-color);
 }
+
 /*==========Scroll To Top CSS End==========*/
+
+/*==========Footer Top Btn CSS Start==========*/
+
+
+/*==========Footer Top Btn CSS End==========*/
+
+
+
+
+
+/* ============================================================================================================================================ */
+/* ============================================================================================================================================ */
+/* ============================================================================================================================================ */
+/* ============================================================================================================================================ */
+/* ============================================================================================================================================ */
+/* ============================================================================================================================================ */
+/* ============================================================================================================================================ */
+/* ============================================================================================================================================ */
+/* ============================================================================================================================================ */
+
+
 
 /*========== Inner Page CSS end ==========*/
 .main-banner.inner-banner {

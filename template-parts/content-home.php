@@ -375,66 +375,66 @@
 <section class="gallery-sec space-sec-x">
     <div class="sec-wp">
         <div class="container">
-        <div class="row gallery-slider">
-            <div class="col-lg-2">
-                <div class="gallery-contant-box">
+        <div class="gallery-slider">
+            <div class="gallery-contant-box">
+                <a href="<?php echo home_url();?>/wp-content/uploads/2023/07/gallery-sec-image01.jpg" data-fancybox="gallery">
                     <div class="gallery-image back-img" style="background-image:url(<?php echo home_url();?>/wp-content/uploads/2023/07/gallery-sec-image01.jpg)"></div>
-                </div>
+                </a>
             </div>
-            <div class="col-lg-2">
-                <div class="gallery-contant-box">
+            <div class="gallery-contant-box">
+                <a href="<?php echo home_url();?>/wp-content/uploads/2023/07/gallery-sec-image02.jpg" data-fancybox="gallery">
                     <div class="gallery-image back-img" style="background-image:url(<?php echo home_url();?>/wp-content/uploads/2023/07/gallery-sec-image02.jpg)"></div>
-                </div>
+                </a>
             </div>
-            <div class="col-lg-2">
-                <div class="gallery-contant-box">
+            <div class="gallery-contant-box">
+                <a href="<?php echo home_url();?>/wp-content/uploads/2023/07/gallery-sec-image03.jpg" data-fancybox="gallery">
                     <div class="gallery-image back-img" style="background-image:url(<?php echo home_url();?>/wp-content/uploads/2023/07/gallery-sec-image03.jpg)"></div>
-                </div>
+                </a>
             </div>
-            <div class="col-lg-2">
-                <div class="gallery-contant-box">
+            <div class="gallery-contant-box">
+                <a href="<?php echo home_url();?>/wp-content/uploads/2023/07/gallery-sec-image04.jpg" data-fancybox="gallery">
                     <div class="gallery-image back-img" style="background-image:url(<?php echo home_url();?>/wp-content/uploads/2023/07/gallery-sec-image04.jpg)"></div>
-                </div>
+                </a>
             </div>
-            <div class="col-lg-2">
-                <div class="gallery-contant-box">
+            <div class="gallery-contant-box">
+                <a href="<?php echo home_url();?>/wp-content/uploads/2023/07/gallery-sec-image05.jpg" data-fancybox="gallery">
                     <div class="gallery-image back-img" style="background-image:url(<?php echo home_url();?>/wp-content/uploads/2023/07/gallery-sec-image05.jpg)"></div>
-                </div>
+                </a>
             </div>
-            <div class="col-lg-2">
-                <div class="gallery-contant-box">
+            <div class="gallery-contant-box">
+                <a href="<?php echo home_url();?>/wp-content/uploads/2023/07/gallery-sec-image06.jpg" data-fancybox="gallery">
                     <div class="gallery-image back-img" style="background-image:url(<?php echo home_url();?>/wp-content/uploads/2023/07/gallery-sec-image06.jpg)"></div>
-                </div>
+                </a>
             </div>
-            <div class="col-lg-2">
-                <div class="gallery-contant-box">
+            <div class="gallery-contant-box">
+                <a href="<?php echo home_url();?>/wp-content/uploads/2023/07/gallery-sec-image07.jpg" data-fancybox="gallery">
                     <div class="gallery-image back-img" style="background-image:url(<?php echo home_url();?>/wp-content/uploads/2023/07/gallery-sec-image07.jpg)"></div>
-                </div>
+                </a>
             </div>
-            <div class="col-lg-2">
-                <div class="gallery-contant-box">
+            <div class="gallery-contant-box">
+                <a href="<?php echo home_url();?>/wp-content/uploads/2023/07/gallery-sec-image08.jpg" data-fancybox="gallery">
                     <div class="gallery-image back-img" style="background-image:url(<?php echo home_url();?>/wp-content/uploads/2023/07/gallery-sec-image08.jpg)"></div>
-                </div>
+                </a>
             </div>
-            <div class="col-lg-2">
-                <div class="gallery-contant-box">
+            <div class="gallery-contant-box">
+                <a href="<?php echo home_url();?>/wp-content/uploads/2023/07/gallery-sec-image09.jpg" data-fancybox="gallery">
                     <div class="gallery-image back-img" style="background-image:url(<?php echo home_url();?>/wp-content/uploads/2023/07/gallery-sec-image09.jpg)"></div>
-                </div>
+                </a>
             </div>
-            <div class="col-lg-2">
-                <div class="gallery-contant-box">
+            <div class="gallery-contant-box">
+                <a href="<?php echo home_url();?>/wp-content/uploads/2023/07/gallery-sec-image10.jpg" data-fancybox="gallery">
                     <div class="gallery-image back-img" style="background-image:url(<?php echo home_url();?>/wp-content/uploads/2023/07/gallery-sec-image10.jpg)"></div>
-                </div>
+                </a>
             </div>
-            <div class="col-lg-2">
-                <div class="gallery-contant-box">
+            <div class="gallery-contant-box">
+                <a href="<?php echo home_url();?>/wp-content/uploads/2023/07/gallery-sec-image11.jpg" data-fancybox="gallery">
                     <div class="gallery-image back-img" style="background-image:url(<?php echo home_url();?>/wp-content/uploads/2023/07/gallery-sec-image11.jpg)"></div>
-                </div>
+                </a>
             </div>
-            <div class="col-lg-2">
-                <div class="gallery-contant-box">
+            <div class="gallery-contant-box">
+                <a href="<?php echo home_url();?>/wp-content/uploads/2023/07/gallery-sec-image12.jpg" data-fancybox="gallery">
                     <div class="gallery-image back-img" style="background-image:url(<?php echo home_url();?>/wp-content/uploads/2023/07/gallery-sec-image12.jpg)"></div>
-                </div>
+                </a>
             </div>
         </div>
         </div>

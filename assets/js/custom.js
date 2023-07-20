@@ -1,6 +1,8 @@
 jQuery(document).ready(function ($) {
 
     var window_size = jQuery(window).width();
+
+    // For wow animation
     new WOW().init();
 
     var currentRequest = null;
@@ -29,7 +31,6 @@ jQuery(document).ready(function ($) {
     });
 
 
-
     /* FAQ Page accordion */
     jQuery('.accordion .faq-content').hide();
     jQuery('.accordion > div:eq(0) h3').addClass('active-faq');
@@ -50,7 +51,7 @@ jQuery(document).ready(function ($) {
 
 
     // For Reviews Slider
-    jQuery('.reviews-testimonial-slider').slick({
+    $('.reviews-testimonial-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         infinite: true,
@@ -75,7 +76,7 @@ jQuery(document).ready(function ($) {
 
 
     // For Category Slider
-    jQuery('.category-slider').slick({
+    $('.category-slider').slick({
         slidesToShow: 9,
         slidesToScroll: 1,
         infinite: true,
@@ -93,7 +94,7 @@ jQuery(document).ready(function ($) {
 
 
     // For Gallery Slider
-    jQuery('.gallery-slider').slick({
+    $('.gallery-slider').slick({
         slidesToShow: 6,
         slidesToScroll: 1,
         infinite: true,
@@ -125,27 +126,29 @@ jQuery(document).ready(function ($) {
 
 
     /* Scroll To Top JS */
-    jQuery(window).scroll(function () {
-        if (jQuery(this).scrollTop() > 100) {
-            jQuery('#scrollToTop').fadeIn();
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('#scrollToTop').fadeIn();
         } else {
-            jQuery('#scrollToTop').fadeOut();
+            $('#scrollToTop').fadeOut();
         }
     });
-    jQuery('#scrollToTop').click(function () {
-        jQuery("html, body").animate({ scrollTop: 0 }, 600);
+    $('#scrollToTop').click(function () {
+        $("html, body").animate({ scrollTop: 0 }, 600);
         return false;
     });
 
+
     /* Sticky Header JS */
-    jQuery(window).scroll(function () { // this will work when your window scrolled.
-        var height = jQuery(window).scrollTop(); //getting the scrolling height of window
-        if (height > 100) {
-            jQuery(".site-header").addClass("sticky_head");
+    $(window).scroll(function () { // this will work when your window scrolled.
+        var height = $(window).scrollTop(); //getting the scrolling height of window
+        if (height > 0) {
+            $(".site-header").addClass("sticky_head");
         } else {
-            jQuery(".site-header").removeClass("sticky_head");
+            $(".site-header").removeClass("sticky_head");
         }
     });
+
 
     /* Mobile Menu JS */
     jQuery("#main-menu .menu-item a").click(function () {
