@@ -2761,6 +2761,7 @@ button.close:hover {
 
 /*========== Inner Page CSS end ==========*/
 
+
 /*===============Residential Sevices [Page] CSS Start ===============*/
 
 /*========== Residential First Section CSS Start ==========*/
@@ -2805,6 +2806,7 @@ button.close:hover {
 
 /*===============Residential Sevices [Page] CSS End ===============*/
 
+
 /*===============Service and Repair [Page] CSS Start ===============*/
 
 /*==========Service and Repair First Section CSS Start ==========*/
@@ -2822,7 +2824,7 @@ button.close:hover {
 /*==========Service and Repair Main Section CSS Start ==========*/
 
 .electrical-panel-sec{
-    padding: 163px 0 224px 0;
+    padding: 148px 0 227px 0;
 }
 
 .electrical-panel-sec .sec-title{
@@ -2830,9 +2832,36 @@ button.close:hover {
     margin-bottom: 101px;
 }
 
+.backup-generator-sec{
+    padding: 224px 0 123px 0;
+    margin-top: -58px;
+}
+
+.backup-generator-sec.clip-path.clip-path-02::before {
+    clip-path: polygon(100% 43%, 100% 86%, 0 100%, 0 35%, 39% 0);
+}
+
+.brand-and-partners-sec{
+    padding: 43px 0 136px 0;
+}
+
 /*==========Service and Repair Main Section CSS End ==========*/
 
 /*===============Service and Repair [Page] CSS End ===============*/
+
+
+/*===============Backup Generator [Page] CSS Start ===============*/
+
+/*==========Backup Generator First Section CSS Start ==========*/
+
+    .backup-generator-first-sec{
+        padding: 100px 0 54px 0;
+    }
+
+/*==========Backup Generator First Section CSS End ==========*/
+
+/*===============Backup Generator [Page] CSS End ===============*/
+
 
 
 

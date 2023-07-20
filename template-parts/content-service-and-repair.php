@@ -90,5 +90,89 @@
         </div>
     </section>
 
+    <section class="led-lighting-sec">
+        <div class="sec-wp">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5">
+                        <div class="common-image back-img"
+                            style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-and-repair-page-image03.jpg)">
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="common-text-contant ml-auto">
+                            <div class="common-sec-title">
+                                <h3 class="h3-title">LED Lighting</h3>
+                            </div>
+                            <div class="common-description-text">
+                                <p>LED lighting can be an excellent way to add ambiance and beauty to your home or
+                                    business. Our team at RB Electrical Service is always available to help you decide
+                                    which styles and designs are right for your space, needs, and preferences.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="backup-generator-sec clip-path clip-path-02">
+        <div class="sec-wp">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <div class="common-text-contant">
+                            <div class="common-sec-title">
+                                <h3 class="h3-title">Backup generator</h3>
+                            </div>
+                            <div class="common-description-text">
+                                <p>Our trained professionals at RB Electrical Service can provide you with a reliable
+                                    backup generator to get the most out of your home or business operations. Whether
+                                    it's an automatic standby system, off-grid, or a single unit, our generator options
+                                    are designed to provide peace of mind and security when you need it most.
+                                </p>
+                            </div>
+                            <div class="common-text-btn">
+                                <a href="#" class="sec-btn blue-btn small-btn" title="more info">more info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="common-image back-img"
+                            style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-sec-image03.jpg)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="brand-and-partners-sec">
+        <div class="sec-wp">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5">
+                        <div class="common-image back-img"
+                            style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-and-repair-page-image04.jpg)">
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="common-text-contant ml-auto">
+                            <div class="common-sec-title">
+                                <h3 class="h3-title">Brands & Partners</h3>
+                            </div>
+                            <div class="common-description-text">
+                                <p>We have partnered with the most trusted brands and companies to ensure reliable
+                                    products and services for your business or home</p>
+                                <p>If you're experiencing an electrical problem with your home or business, give us a
+                                    call today. Our experts will be on hand to answer your questions!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </section>
 <!--main services and repair section start -->
