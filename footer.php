@@ -115,6 +115,10 @@
 	<div class="scrolltop" id="scrollToTop">
 		<i class="fa-solid fa-angles-up"></i>
 	</div>
+	<div class="top-fixed-btn">
+		<a href="tel:(951) 201-0116" class="sec-btn" title="(951) 201-0116">call (951) 201-0116</a>
+		<a href="#" class="sec-btn contact-us-btn" title="Contact Us">Contact Us</a>
+	</div>
 </footer>
 
 </div>

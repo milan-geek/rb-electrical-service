@@ -69,178 +69,174 @@
 </section>
 <!-- about section end -->
 
-<!--residential services section start -->
-<section class="residential-services-sec back-img"
-    style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-bg-image01.png)">
-    <div class="sec-wp">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="sec-title">
-                        <h2 class="h1-title">our services</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-lg-7">
-                    <div class="common-text-contant">
-                        <div class="common-sec-title">
-                            <h3 class="h3-title">Residential</h3>
-                        </div>
-                        <div class="common-description-text">
-                            <p>We can make your home safer, more functional, and more efficient. We specialize in new
-                                home construction, remodels, service upgrades, and small electrical projects. Our
-                                professional electricians are available for emergency repairs or scheduled maintenance
-                                work so you know your house is always protected by a safe and dependable electrical
-                                system.</p>
-                        </div>
-                        <div class="common-text-btn">
-                            <a href="#" class="sec-btn blue-btn small-btn" title="more info">more info</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5">
-                    <div class="common-image back-img"
-                        style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-sec-image01.jpg)">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--residential services section end -->
+<!-- main services section start -->
+<section class="main-service-sec">
 
-<!--service and repair section start -->
-<section class="services-and-repair-services-sec">
-    <div class="sec-wp">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-5">
-                    <div class="common-image back-img"
-                        style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-sec-image02.jpg)">
+    <section class="residential-services-sec clip-path-top">
+        <div class="sec-wp">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="sec-title">
+                            <h2 class="h1-title">our services</h2>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-7">
-                    <div class="common-text-contant ml-auto">
-                        <div class="common-sec-title">
-                            <h3 class="h3-title">Service and Repair</h3>
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <div class="common-text-contant">
+                            <div class="common-sec-title">
+                                <h3 class="h3-title">Residential</h3>
+                            </div>
+                            <div class="common-description-text">
+                                <p>We can make your home safer, more functional, and more efficient. We specialize in new
+                                    home construction, remodels, service upgrades, and small electrical projects. Our
+                                    professional electricians are available for emergency repairs or scheduled maintenance
+                                    work so you know your house is always protected by a safe and dependable electrical
+                                    system.</p>
+                            </div>
+                            <div class="common-text-btn">
+                                <a href="#" class="sec-btn blue-btn small-btn" title="more info">more info</a>
+                            </div>
                         </div>
-                        <div class="common-description-text">
-                            <p>When it comes to getting the best possible service and repair, we will do everything that
-                                is in our power to ensure that you are satisfied. Our technicians are well-trained and
-                                qualified to work on a variety of systems and technologies, so whatever the problem may
-                                be we can fix it!</p>
-                        </div>
-                        <div class="common-text-btn">
-                            <a href="#" class="sec-btn blue-btn small-btn" title="more info">more info</a>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="common-image back-img"
+                            style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-sec-image01.jpg)">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!--service and repair section end -->
+    </section>
 
-<!--backup generator services section start -->
-<section class="backup-generator-services-sec back-img"
-    style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-bg-image02.png)">
-    <div class="sec-wp">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-7">
-                    <div class="common-text-contant">
-                        <div class="common-sec-title">
-                            <h3 class="h3-title">Backup generator</h3>
-                        </div>
-                        <div class="common-description-text">
-                            <p>At RB Electrical Service we understand what it means to have power. That's why we offer a
-                                variety of generator services for your home and business backup needs. When it comes to
-                                generators, our trained professionals can install, sell, or service any size generator.
-                                We also offer automatic standby and off-grid solutions if you want to go green and
-                                reduce your carbon footprint or need more than just power when there is a power outage.
-                            </p>
-                        </div>
-                        <div class="common-text-btn">
-                            <a href="#" class="sec-btn blue-btn small-btn" title="more info">more info</a>
+    <section class="services-and-repair-services-sec">
+        <div class="sec-wp">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5">
+                        <div class="common-image back-img"
+                            style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-sec-image02.jpg)">
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-5">
-                    <div class="common-image back-img"
-                        style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-sec-image03.jpg)">
+                    <div class="col-lg-7">
+                        <div class="common-text-contant ml-auto">
+                            <div class="common-sec-title">
+                                <h3 class="h3-title">Service and Repair</h3>
+                            </div>
+                            <div class="common-description-text">
+                                <p>When it comes to getting the best possible service and repair, we will do everything that
+                                    is in our power to ensure that you are satisfied. Our technicians are well-trained and
+                                    qualified to work on a variety of systems and technologies, so whatever the problem may
+                                    be we can fix it!</p>
+                            </div>
+                            <div class="common-text-btn">
+                                <a href="#" class="sec-btn blue-btn small-btn" title="more info">more info</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!--backup generator services section end -->
+    </section>
 
-<!--service and repair section start -->
-<section class="electric-charger-sevices-sec back-img"
-    style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-bg-image03.png)">
-    <div class="sec-wp">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-5">
-                    <div class="common-image back-img"
-                        style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-sec-image04.jpg)">
+    <section class="backup-generator-services-sec back-img"
+        style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-bg-image02.png)">
+        <div class="sec-wp">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <div class="common-text-contant">
+                            <div class="common-sec-title">
+                                <h3 class="h3-title">Backup generator</h3>
+                            </div>
+                            <div class="common-description-text">
+                                <p>At RB Electrical Service we understand what it means to have power. That's why we offer a
+                                    variety of generator services for your home and business backup needs. When it comes to
+                                    generators, our trained professionals can install, sell, or service any size generator.
+                                    We also offer automatic standby and off-grid solutions if you want to go green and
+                                    reduce your carbon footprint or need more than just power when there is a power outage.
+                                </p>
+                            </div>
+                            <div class="common-text-btn">
+                                <a href="#" class="sec-btn blue-btn small-btn" title="more info">more info</a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="common-text-contant ml-auto">
-                        <div class="common-sec-title">
-                            <h3 class="h3-title">Electric vehicle charger</h3>
-                        </div>
-                        <div class="common-description-text">
-                            <p>RB Electrical Service is an authorized provider of Tesla charging stations and we install
-                                chargers for other makes and models as well. These charging stations are not
-                                do-it-yourself installations, so it's important to hire a licensed professional.</p>
-                        </div>
-                        <div class="common-text-btn">
-                            <a href="#" class="sec-btn blue-btn small-btn" title="more info">more info</a>
+                    <div class="col-lg-5">
+                        <div class="common-image back-img"
+                            style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-sec-image03.jpg)">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!--service and repair section end -->
+    </section>
 
-<!--commercial and repair section start -->
-<section class="commercial-services-sec">
-    <div class="sec-wp">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-7">
-                    <div class="common-text-contant">
-                        <div class="common-sec-title">
-                            <h3 class="h3-title">Commercial</h3>
-                        </div>
-                        <div class="common-description-text">
-                            <p>RB Electrical Service offers a comprehensive range of commercial electrical services
-                                including electrical panel wiring, lighting and motor controls, electrical distribution
-                                circuitry additions, breaker maintenance, and repairs for the office and commercial
-                                facilities. We are proud to serve all clients by providing fast and efficient service,
-                                as well as delivering professional quality results for every project.</p>
-                        </div>
-                        <div class="common-text-btn">
-                            <a href="#" class="sec-btn blue-btn small-btn" title="more info">more info</a>
+    <section class="electric-charger-sevices-sec back-img"
+        style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-bg-image03.png)">
+        <div class="sec-wp">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5">
+                        <div class="common-image back-img"
+                            style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-sec-image04.jpg)">
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-5">
-                    <div class="common-image back-img"
-                        style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-sec-image05.jpg)">
+                    <div class="col-lg-7">
+                        <div class="common-text-contant ml-auto">
+                            <div class="common-sec-title">
+                                <h3 class="h3-title">Electric vehicle charger</h3>
+                            </div>
+                            <div class="common-description-text">
+                                <p>RB Electrical Service is an authorized provider of Tesla charging stations and we install
+                                    chargers for other makes and models as well. These charging stations are not
+                                    do-it-yourself installations, so it's important to hire a licensed professional.</p>
+                            </div>
+                            <div class="common-text-btn">
+                                <a href="#" class="sec-btn blue-btn small-btn" title="more info">more info</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section class="commercial-services-sec">
+        <div class="sec-wp">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <div class="common-text-contant">
+                            <div class="common-sec-title">
+                                <h3 class="h3-title">Commercial</h3>
+                            </div>
+                            <div class="common-description-text">
+                                <p>RB Electrical Service offers a comprehensive range of commercial electrical services
+                                    including electrical panel wiring, lighting and motor controls, electrical distribution
+                                    circuitry additions, breaker maintenance, and repairs for the office and commercial
+                                    facilities. We are proud to serve all clients by providing fast and efficient service,
+                                    as well as delivering professional quality results for every project.</p>
+                            </div>
+                            <div class="common-text-btn">
+                                <a href="#" class="sec-btn blue-btn small-btn" title="more info">more info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="common-image back-img"
+                            style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-sec-image05.jpg)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </section>
-<!--commercial and repair section end -->
+<!-- main services section end -->
+
 
 <!--reviews section start -->
 <section class="reviews-sec back-img"

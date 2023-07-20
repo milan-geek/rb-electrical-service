@@ -1750,6 +1750,10 @@ a:hover {
     margin-bottom: 38px;
 }
 
+.common-text-contant .common-description-text p{
+    margin-bottom: 32px;
+}
+
 .common-text-contant .common-description-text p:last-of-type{
     margin-bottom: 0px;
 }
@@ -2203,7 +2207,16 @@ button.close:hover {
     display: flex;
     align-items: center;
     height: 100%;
-} 
+}
+
+.main-navigation ul.nav-menu > li.current_page_item > a,
+.main-navigation ul.nav-menu > li:hover > a{
+    color: var(--green-color);
+}
+
+.main-navigation ul.nav-menu > li.menu-item-has-children:hover > a:after{
+    color: var(--green-color);
+}
 
 .header-btn .sec-btn{
     width: 160px;
@@ -2305,12 +2318,34 @@ button.close:hover {
 
 /*==========About Section CSS End==========*/
 
+/*==========Main Services Section CSS Start==========*/
+
+.main-service-sec section:first-child{
+    position: relative;
+}
+.main-service-sec section:first-child::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: polygon(100% 0, 100% 65%, 70% 100%, 0 77%, 0 14%);
+}
+
+.clip-path-top{
+    
+}
+
+
+
+
 /*==========Residential Services Section CSS Start==========*/
 
 .residential-services-sec{
-    padding-top: 183px;
-    /* padding-bottom: 175px; */
-    padding-bottom: 195px;
+    padding-top: 201px;
+    padding-bottom: 173px;
 }
 
 .residential-services-sec .sec-title{
@@ -2347,6 +2382,9 @@ button.close:hover {
 }
 
 /*==========Commercial Section CSS End==========*/
+
+/*==========Main Services Section CSS End==========*/
+
 
 /*==========Reviews Section CSS Start==========*/
 
@@ -2654,8 +2692,64 @@ button.close:hover {
 
 /*==========Footer Top Btn CSS Start==========*/
 
+.top-fixed-btn{
+    position: fixed;
+    top: 50%;
+    right: -116px;
+    transform: translate(0, -50%) rotate(-90deg);
+    z-index: 98;
+    display: flex;
+    gap: 0px;
+}
+
+.top-fixed-btn .sec-btn{
+    width: 154px;
+    height: 42px;
+    border-radius: 4px 0 0 0;
+}
+
+.top-fixed-btn .sec-btn.contact-us-btn{
+    width: 121px;
+    height: 42px;
+    background-color: #02984B;
+    border-radius: 0 4px 0 0;
+}
+
+.top-fixed-btn .sec-btn.contact-us-btn:hover{
+    background-color: var(--black-color);
+}
 
 /*==========Footer Top Btn CSS End==========*/
+
+/*========== Inner Page CSS Start ==========*/
+
+.inner-banner{
+    padding: 166px 0 100px 0;
+    position: relative;
+    min-height: 363px;
+}
+
+.inner-banner.back-img {
+    background-position: left;
+}
+
+.inner-banner-contant .h1-title{
+    margin-bottom: 0px;
+}
+
+/*========== Inner Page CSS end ==========*/
+
+/*=============== Sevices [Page] CSS Start ===============*/
+
+/*========== Residential Page CSS Start ==========*/
+.resident-first-sec{
+    padding: 100px 0 87px 0;
+}
+/*========== Residential Page CSS end ==========*/
+
+/*=============== Sevices [Page] CSS End ===============*/
+
+
 
 
 
