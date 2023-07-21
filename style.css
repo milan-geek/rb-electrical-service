@@ -1793,6 +1793,10 @@ a:hover {
     clip-path: polygon(100% 0, 100% 69%, 72% 100%, 0 69%, 0 0);
 }
 
+.other-contant-list-box .sec-title {
+    margin-bottom: 40px;
+}
+
 .other-services-list {
     column-count: 3;
     column-gap: 100px;
@@ -1808,6 +1812,34 @@ a:hover {
     display: inline-flex;
     gap: 12px;
     margin-bottom: 5px;
+}
+
+.social-info {
+    display: inline-flex;
+    align-items: center;
+    gap: 36px;
+    margin-bottom: 41px;
+}
+
+.social-info .social-icon {
+    font-size: 37px;
+    color: var(--green-color);
+}
+
+.contact-info li a {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-info li a .contact-icon {
+    font-size: 16px;
+    color: var(--green-color);
+}
+
+.contact-info li a .contact-icon-text-info {
+    color: var(--white-color);
+    line-height: 21px;
 }
 
 
@@ -2398,7 +2430,7 @@ button.close:hover {
 
 /*==========Electric Charger Section CSS Start==========*/
 
-.electric-charger-sevices-sec {
+.electric-charger-services-sec {
     padding-top: 90px;
     padding-bottom: 49px;
 }
@@ -2581,34 +2613,6 @@ button.close:hover {
 
 .footer-logo-info-box .footer-logo-description-text p:last-of-type {
     margin-bottom: 0px;
-}
-
-.social-info {
-    display: inline-flex;
-    align-items: center;
-    gap: 36px;
-    margin-bottom: 41px;
-}
-
-.social-info .social-icon {
-    font-size: 37px;
-    color: var(--green-color);
-}
-
-.contact-info li a {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.contact-info li a .contact-icon {
-    font-size: 16px;
-    color: var(--green-color);
-}
-
-.contact-info li a .contact-icon-text-info {
-    color: var(--white-color);
-    line-height: 21px;
 }
 
 .footer-page-link-box {
@@ -2810,10 +2814,6 @@ button.close:hover {
     padding: 127px 0 110px 0;
 }
 
-.among-other-contant-box .sec-title {
-    margin-bottom: 40px;
-}
-
 /*========== Among Other Services CSS End ==========*/
 
 /*===============Residential Sevices [Page] CSS End ===============*/
@@ -2952,6 +2952,45 @@ button.close:hover {
 /*==========Electric vehicle charger Main Section CSS End ==========*/
 
 /*===============Electric vehicle charger [Page] CSS End ===============*/
+
+
+/*===============Commercial [Page] CSS Start ===============*/
+
+/*==========Commercial First Section CSS Start ==========*/
+
+.commercial-first-sec{
+    padding: 100px 0 50px 0;
+}
+
+.commercial-first-sec .common-image{
+    height: 705px;
+}
+
+/*==========Commercial First Section CSS End ==========*/
+
+/*==========Commercial We Specialize In Section CSS Start ==========*/
+
+.commercial-we-specialize-sec{
+    padding: 59px 0 51px;
+}
+
+.commercial-we-specialize-sec .other-services-list{
+    width: 1130px;
+    column-gap: 60px;
+}
+
+/*==========Commercial We Specialize In Section CSS End ==========*/
+
+/*===============Commercial [Page] CSS End ===============*/
+
+
+/*===============Contact Us [Page] CSS Start ===============*/
+
+
+
+/*===============Contact Us [Page] CSS End ===============*/
+
+
 
 
 

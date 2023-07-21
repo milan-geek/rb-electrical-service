@@ -173,7 +173,7 @@
 <section class="among-other-services-sec">
     <div class="sec-wp">
         <div class="container">
-            <div class="among-other-contant-box">
+            <div class="other-contant-list-box">
                 <div class="sec-title">
                     <h3 class="h3-title">Among other services</h3>
                 </div>

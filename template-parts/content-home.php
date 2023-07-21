@@ -172,7 +172,7 @@
         </div>
     </section>
 
-    <section class="electric-charger-sevices-sec clip-path clip-path-03">
+    <section class="electric-charger-services-sec clip-path clip-path-03">
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
