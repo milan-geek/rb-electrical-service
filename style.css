@@ -497,6 +497,7 @@ big {
 
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth !important;
 }
 
 *,
@@ -1081,6 +1082,11 @@ select {
     border-radius: 6px;
 }
 
+.form-input:focus{
+    border: 1px solid var(--green-color);
+    transition: 0.3s;
+}
+
 select,
 select.form-input {
     text-overflow: ellipsis;
@@ -1594,9 +1600,9 @@ a:hover {
     transition: 0.3s;
 }
 
-.main-navigation ul ul li.current_page_item a,
+.main-navigation ul ul li.current-menu-item > a,
 .main-navigation ul ul li a:hover {
-    background-color: var(--green-color);
+    background-color: var(--primary-color);
     color: var(--white-color);
 }
 
@@ -1643,7 +1649,7 @@ a:hover {
 }
 
 .sec-btn.blue-btn:hover {
-    background: linear-gradient(0deg, rgba(0, 166, 78, 1) 0%, rgba(0, 166, 78, 1) 100%);
+    background: linear-gradient(180deg, rgba(0, 166, 78, 1) 0%, rgba(0, 166, 78, 1) 100%);
 }
 
 .sec-btn.blue-btn.small-btn {
@@ -2298,14 +2304,17 @@ button.close:hover {
     height: 100%;
 }
 
-.main-navigation ul.nav-menu>li.current_page_item>a,
+.main-navigation ul.nav-menu>li.current-menu-item >a,
+.main-navigation ul.nav-menu>li.current-menu-parent >a,
 .main-navigation ul.nav-menu>li:hover>a {
     color: var(--green-color);
 }
 
+.main-navigation ul.nav-menu>li.current-menu-parent.menu-item-has-children a::after,
 .main-navigation ul.nav-menu>li.menu-item-has-children:hover>a:after {
     color: var(--green-color);
 }
+
 
 .header-btn .sec-btn {
     width: 160px;
@@ -2365,7 +2374,7 @@ button.close:hover {
 }
 
 .main-banner-btn {
-    display: flex;
+    display: inline-flex;
     gap: 14px;
 }
 
@@ -2819,6 +2828,10 @@ button.close:hover {
     margin-bottom: 101px;
 }
 
+.dedicated-circuitry-sec {
+    margin-top: -8px;
+}
+
 .decorative-lighting-sec {
     padding: 224px 0 84px 0;
     margin-top: -58px;
@@ -2866,6 +2879,10 @@ button.close:hover {
     margin-bottom: 101px;
 }
 
+.led-lighting-sec {
+    margin-top: -8px;
+}
+
 .backup-generator-sec {
     padding: 224px 0 123px 0;
     margin-top: -58px;
@@ -2903,6 +2920,11 @@ button.close:hover {
 /*==========Off Grid Systems Section CSS End ==========*/
 
 /*==========Uninterruptable Power Systems Section CSS Start ==========*/
+
+.uninterruptable-power-systems-sec {
+    margin-top: -9px;
+}
+
 .uninterruptable-power-systems-sec .common-image.back-img{
     background-position: left;
 }
@@ -2969,6 +2991,7 @@ button.close:hover {
 
 .vault-outlets-sec{
     padding-bottom: 24px;
+    margin-top: -8px;
 }
 
 /*==========Electric vehicle charger Main Section CSS End ==========*/
@@ -3046,8 +3069,12 @@ button.close:hover {
     transition: 0.3s;
 }
 
-.contact-page-call-info a:hover .call-icon{
-    color: var(--primary-color);
+.contact-page-call-info a .h3-title{
+    transition: 0.3s;
+}
+
+.contact-page-call-info a:hover .h3-title{
+    color: var(--green-color);
 }
 
 .contact-page-left-box .social-info li:hover .social-icon{

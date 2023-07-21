@@ -25,7 +25,7 @@
 <!-- main- banner section end -->
 
 <!-- about section start -->
-<section class="about-sec">
+<section class="about-sec" id="about">
     <div class="sec-wp">
         <div class="container">
             <div class="row">
@@ -234,7 +234,6 @@
 
 </section>
 <!-- main services section end -->
-
 
 <!--reviews section start -->
 <section class="reviews-sec back-img"
