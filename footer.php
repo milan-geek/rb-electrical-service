@@ -35,6 +35,7 @@
 								<li><a href="#" class="social-icon" title="Follow Now"><i
 											class="fa-brands fa-instagram"></i></a></li>
 							</ul>
+							
 							<ul class="contact-info">
 								<li>
 									<a href="#" title="27393 Finale Ct., Menifee, CA 92584">
@@ -60,23 +61,31 @@
 					<div class="col-lg-4">
 						<div class="footer-page-link-box white-text">
 							<h5 class="h5-title">Services</h5>
-							<ul class="footer-page-link">
-								<li><a href="#" title="Residential">Residential</a></li>
-								<li><a href="#" title="Service and Repair">Service and Repair</a></li>
-								<li><a href="#" title="Backup Generator">Backup Generator</a></li>
-								<li><a href="#" title="Electric Vehicle Charger">Electric Vehicle Charger</a></li>
-								<li><a href="#" title="Commercial">Commercial</a></li>
-							</ul>
+							<div class="footer-page-link">
+								<?php
+									wp_nav_menu(
+										array(
+											'theme_location' => 'ServicesMenu',
+											'menu_id'        => 'ServicesMenu',
+										)
+									);
+									?>
+							</div>
 						</div>
 					</div>
 					<div class="col-lg-1">
 						<div class="footer-page-link-box white-text">
 							<h5 class="h5-title">Navigation</h5>
-							<ul class="footer-page-link">
-								<li><a href="#" title="Home">Home</a></li>
-								<li><a href="#" title="About">About</a></li>
-								<li><a href="#" title="Contacts">Contacts</a></li>
-							</ul>
+							<div class="footer-page-link">
+								<?php
+										wp_nav_menu(
+											array(
+												'theme_location' => 'NavigationMenu',
+												'menu_id'        => 'NavigationMenu',
+											)
+										);
+										?>
+							</div>
 						</div>
 					</div>
 				</div>

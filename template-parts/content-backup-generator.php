@@ -1,6 +1,6 @@
 <!-- inner banner section start -->
 <section class="inner-banner back-img"
-    style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/inner-banner-bg-image.png)">
+    style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/inner-banner-bg-image01.png)">
     <div class="sec-wp">
         <div class="container">
             <div class="row">

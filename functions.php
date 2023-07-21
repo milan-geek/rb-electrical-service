@@ -50,6 +50,8 @@ function rb_electrical_service_setup() {
 	register_nav_menus(
 		array(
 			'menu-1' => esc_html__( 'Primary', 'rb-electrical-service' ),
+			'ServicesMenu' => esc_html__( 'ServicesMenu', 'rb-electrical-service' ),
+			'NavigationMenu' => esc_html__( 'NavigationMenu', 'rb-electrical-service' ),
 		)
 	);
 
