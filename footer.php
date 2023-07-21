@@ -19,9 +19,9 @@
 				<div class="row align-items-baseline">
 					<div class="col-lg-7">
 						<div class="footer-logo-info-box">
-							<div class="footer-site-logo back-img"
-								style="background-image: url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/footer-logo.png)">
-							</div>
+							<a href="#" class="footer-site-logo" title="RB Electrical Service">
+								<img src="<?php echo home_url(); ?>/wp-content/uploads/2023/07/footer-logo.png" alt="RB Electrical Service">
+							</a>
 							<div class="footer-logo-description-text">
 								<p>RB Electrical Service is a top-rated electrical contractor in the Menifee, CA area
 									specializing in commercial, industrial, and residential service needs for electrical

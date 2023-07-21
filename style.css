@@ -977,7 +977,7 @@ span.wpcf7-not-valid-tip {
 
 .wpcf7-form-control-wrap {
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 16px;
     position: relative;
 }
 
@@ -1009,7 +1009,7 @@ input[type=text],
 input[type=email],
 input[type=number] {
     -webkit-appearance: none;
-    border-radius: 0;
+    border-radius: 6px;
 }
 
 input::-webkit-outer-spin-button,
@@ -1069,16 +1069,16 @@ select::-ms-expand {
 .select2-container--default .select2-selection--single .select2-selection__rendered,
 select {
     width: 100%;
-    height: 46px;
-    border: none;
+    height: 54px;
+    border: 1px solid rgb(182, 195, 204, 30%) ;
     outline: none !important;
-    padding: 0 15px;
+    padding: 5px 20px;
     font-size: 16px;
     line-height: 26px;
     color: var(--dark-color);
-    background: var(--white-color);
+    background-color: var(--sec-clip-path-color);
     -webkit-appearance: none;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 select,
@@ -1344,7 +1344,7 @@ input[type="number"]::-webkit-outer-spin-button {
     --white-color: #ffffff;
     --black-color: #000000;
     --red-color: #ff0000;
-    --input-color: #555555;
+    --input-color: #B6C3CC;
     --gradient-color: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
     --box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16);
     --body-font: 'Inter';
@@ -1838,8 +1838,13 @@ a:hover {
 }
 
 .contact-info li a .contact-icon-text-info {
-    color: var(--white-color);
+    color: #16273D;
     line-height: 21px;
+    transition: 0.3s;
+}
+
+.contact-info li a:hover .contact-icon-text-info{
+    color: var(--green-color);
 }
 
 
@@ -2416,6 +2421,15 @@ button.close:hover {
     margin-bottom: 101px;
 }
 
+/*==========Services And Repair Services Section CSS Start==========*/
+
+.services-and-repair-services-sec{
+    margin-top: -8px;
+}
+
+/*==========Services And Repair Services Section CSS End==========*/
+
+
 /*==========Residential Services Section CSS End==========*/
 
 /*==========Backup Generator Section CSS Start==========*/
@@ -2595,10 +2609,10 @@ button.close:hover {
     background-position: top;
 }
 
-.footer-logo-info-box .footer-site-logo {
+.footer-logo-info-box .footer-site-logo{
     width: 296px;
     height: 55px;
-    max-width: 100%;
+    display: block;
     margin-bottom: 40px;
 }
 
@@ -2613,6 +2627,14 @@ button.close:hover {
 
 .footer-logo-info-box .footer-logo-description-text p:last-of-type {
     margin-bottom: 0px;
+}
+
+.footer-social-box .social-info li:hover .social-icon{
+    color: var(--white-color);
+}
+
+.footer-social-box .contact-info a .contact-icon-text-info{
+    color: var(--white-color);
 }
 
 .footer-page-link-box {
@@ -2986,6 +3008,63 @@ button.close:hover {
 
 /*===============Contact Us [Page] CSS Start ===============*/
 
+/*==========Contact Page Section CSS Start ==========*/
+
+.contact-page-sec{
+    padding: 66px 0 103px 0;
+}
+
+.contact-page-left-box{
+    max-width: 570px;
+}
+
+.contact-page-left-box .contact-page-text-info{
+    margin-bottom: 40px;
+}
+
+.contact-page-left-box .contact-page-text-info p{
+    color: #16273D;
+}
+
+.contact-page-left-box .contact-page-text-info p:last-of-type{
+    margin-bottom: 0px;
+}
+
+.contact-page-call-info{
+    margin-bottom: 45px;
+}
+
+.contact-page-call-info a{
+    display: inline-flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.contact-page-call-info a .call-icon{
+    color: var(--green-color);
+    font-size: 32px;
+    transition: 0.3s;
+}
+
+.contact-page-call-info a:hover .call-icon{
+    color: var(--primary-color);
+}
+
+.contact-page-left-box .social-info li:hover .social-icon{
+    color: var(--primary-color);
+}
+
+.contact-page-right-box .sec-title{
+    margin-bottom: 35px;
+}
+
+.contact-form-box [type="submit"]{
+    border: none;
+}
+
+
+
+/*==========Contact Page Section CSS End ==========*/
 
 
 /*===============Contact Us [Page] CSS End ===============*/
