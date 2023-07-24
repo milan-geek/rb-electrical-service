@@ -2366,8 +2366,7 @@ button.close:hover {
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(
-    90deg,
+  background: linear-gradient( 90deg,
     rgba(213, 212, 208, 1) 0%,
     rgba(255, 255, 255, 0.8) 70%,
     rgba(246, 248, 250, 0) 100%
@@ -2380,12 +2379,13 @@ button.close:hover {
 
 .main-banner-discription-text {
   max-width: 351px;
-  margin-top: 37px;
-  margin-bottom: 52px;
+  margin-top: 33px;
+  margin-bottom: 48px;
 }
 
 .main-banner-contant .main-banner-discription-text p {
   font-size: 28px;
+  line-height: 42px;
 }
 
 .main-banner-contant .main-banner-discription-text p:last-of-type {
