@@ -1836,7 +1836,7 @@ a:hover {
   display: inline-flex;
   align-items: center;
   gap: 36px;
-  margin-bottom: 41px;
+  margin-bottom: 25px;
 }
 
 .social-info .social-icon {
@@ -2354,7 +2354,7 @@ button.close:hover {
 /*==========Main Bnner CSS Start==========*/
 
 .main-banner {
-  clip-path: polygon(0 0, 100% 0, 100% 75%, 100% 75%, 31% 100%, 0 75%);
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 100% 75%, 30% 100%, 0 75%);
   padding: 226px 0 233px 0;
   position: relative;
 }
@@ -2550,7 +2550,7 @@ button.close:hover {
 
 .reviews-testimonial-slider .slick-arrow {
   top: 50%;
-  left: 28px;
+  left: 43px;
   background-color: transparent;
   border: 1px solid rgb(255, 255, 255, 50%);
 }
@@ -2562,7 +2562,7 @@ button.close:hover {
 
 .reviews-testimonial-slider .slide-arrow.next-arrow.slick-arrow {
   left: auto;
-  right: 28px;
+  right: 43px;
   background-color: var(--white-color);
   color: var(--black-color);
 }
@@ -2630,7 +2630,7 @@ button.close:hover {
 /*==========Footer CSS Start==========*/
 
 .footer-top-box {
-  padding: 274px 0 78px 0;
+  padding: 273px 0 70px 0;
   background-color: var(--common-color);
   clip-path: polygon(70% 0, 100% 29%, 100% 100%, 0 100%, 0 30%);
 }
@@ -2648,7 +2648,7 @@ button.close:hover {
 
 .footer-logo-info-box .footer-logo-description-text {
   max-width: 423px;
-  margin-bottom: 53px;
+  margin-bottom: 44px;
 }
 
 .footer-logo-info-box .footer-logo-description-text p {

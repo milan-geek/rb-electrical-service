@@ -57,7 +57,7 @@ jQuery(document).ready(function ($) {
         infinite: true,
         dots: true,
         arrows: true,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 2000,
         prevArrow: '<button class="slide-arrow prev-arrow"><i class="fa fa-angle-left" aria-hidden="true"></i></button>',
         nextArrow: '<button class="slide-arrow next-arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></button>',
