@@ -12,8 +12,7 @@
 ?>
 
 <footer id="colophon" class="site-footer">
-	<div class="footer-top-box back-img"
-		style="background-image: url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/footer-bg-image.png)">
+	<div class="footer-top-box">
 		<div class="sec-wp">
 			<div class="container">
 				<div class="row align-items-baseline">
@@ -126,7 +125,7 @@
 	</div>
 	<div class="top-fixed-btn">
 		<a href="tel:(951) 201-0116" class="sec-btn" title="(951) 201-0116">call (951) 201-0116</a>
-		<a href="#" class="sec-btn contact-us-btn" title="Contact Us">Contact Us</a>
+		<a href="<?php echo home_url(); ?>/contact-us/" class="sec-btn contact-us-btn" title="Contact Us">Contact Us</a>
 	</div>
 </footer>
 

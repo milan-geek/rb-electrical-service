@@ -14,7 +14,7 @@
                         <div class="main-banner-btn">
                             <a href="tel:(951) 201-0116" class="sec-btn" title="call (951) 201-0116">call (951)
                                 201-0116</a>
-                            <a href="#" class="sec-btn blue-btn" title="Contact Us">Contact Us</a>
+                            <a href="<?php echo home_url(); ?>/contact-us/" class="sec-btn blue-btn" title="Contact Us">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -56,7 +56,7 @@
                                     <p>residential or commercial, big or small.</p>
                                 </div>
                                 <div class="we-are-ready-to-take-btn">
-                                    <a href="#" class="sec-btn white-btn" title="Contact Us for a FREE estimate">Contact
+                                    <a href="<?php echo home_url(); ?>/contact-us/" class="sec-btn white-btn" title="Contact Us for a FREE estimate">Contact
                                         Us for a FREE estimate</a>
                                 </div>
                             </div>
@@ -96,7 +96,7 @@
                                     system.</p>
                             </div>
                             <div class="common-text-btn">
-                                <a href="#" class="sec-btn blue-btn small-btn" title="more info">more info</a>
+                                <a href="<?php echo home_url(); ?>/residential/" class="sec-btn blue-btn small-btn" title="more info">more info</a>
                             </div>
                         </div>
                     </div>
@@ -131,7 +131,7 @@
                                     be we can fix it!</p>
                             </div>
                             <div class="common-text-btn">
-                                <a href="#" class="sec-btn blue-btn small-btn" title="more info">more info</a>
+                                <a href="<?php echo home_url(); ?>/service-and-repair/" class="sec-btn blue-btn small-btn" title="more info">more info</a>
                             </div>
                         </div>
                     </div>
@@ -158,7 +158,7 @@
                                 </p>
                             </div>
                             <div class="common-text-btn">
-                                <a href="#" class="sec-btn blue-btn small-btn" title="more info">more info</a>
+                                <a href="<?php echo home_url(); ?>/backup-generator/" class="sec-btn blue-btn small-btn" title="more info">more info</a>
                             </div>
                         </div>
                     </div>
@@ -192,7 +192,7 @@
                                     do-it-yourself installations, so it's important to hire a licensed professional.</p>
                             </div>
                             <div class="common-text-btn">
-                                <a href="#" class="sec-btn blue-btn small-btn" title="more info">more info</a>
+                                <a href="<?php echo home_url(); ?>/electric-vehicle-charger/" class="sec-btn blue-btn small-btn" title="more info">more info</a>
                             </div>
                         </div>
                     </div>
@@ -218,7 +218,7 @@
                                     as well as delivering professional quality results for every project.</p>
                             </div>
                             <div class="common-text-btn">
-                                <a href="#" class="sec-btn blue-btn small-btn" title="more info">more info</a>
+                                <a href="<?php echo home_url(); ?>/commercial/" class="sec-btn blue-btn small-btn" title="more info">more info</a>
                             </div>
                         </div>
                     </div>
@@ -236,8 +236,7 @@
 <!-- main services section end -->
 
 <!--reviews section start -->
-<section class="reviews-sec back-img"
-    style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/reviews-bg-image.png)">
+<section class="reviews-sec back-img" style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/inner-banner-bg-image01.png)">
     <div class="sec-wp">
         <div class="container">
             <div class="row">
