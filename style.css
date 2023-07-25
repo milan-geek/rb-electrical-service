@@ -2699,6 +2699,7 @@ button.close:hover {
 
 .footer-page-link-box {
     margin-left: -30px;
+    margin-top: 100px;
 }
 
 .footer-page-link-box .h5-title {
@@ -4160,7 +4161,6 @@ a.prev.page-numbers {
         right: auto;
         left: 50%;
         transform: translate(-50%, 0%);
-        display: none;
     }
 
     .other-contant-list-box .sec-title {
@@ -4558,7 +4558,7 @@ a.prev.page-numbers {
         right: -15px;
     }
 
-    .header-call-icon{
+    .header-call-icon {
         right: 100px;
     }
 
@@ -4668,7 +4668,6 @@ a.prev.page-numbers {
     }
     /*===============Residential Sevices [Page] CSS End ===============*/
 
-
     /*===============Service and Repair [Page] CSS Start ===============*/
     .services-and-repair-first-sec {
         padding: 20px 0 54px 0;
@@ -4752,12 +4751,13 @@ a.prev.page-numbers {
 }
 
 @media screen and (max-width: 425px) {
-    .main-banner-btn{
+    .main-banner-btn {
         flex-direction: column;
     }
 
-    .footer-bottom-other-link p a.footer-bottom-site-name{
+    .footer-bottom-other-link p a.footer-bottom-site-name {
         display: inline-block;
+        margin-top: 5px;
     }
 }
 
@@ -4789,7 +4789,7 @@ a.prev.page-numbers {
         width: 35px;
     }
 
-    .menu-toggle span{
+    .menu-toggle span {
         margin-bottom: 6px;
     }
 
@@ -4797,7 +4797,7 @@ a.prev.page-numbers {
         top: 10px;
     }
 
-    .header-mobile-menu{
+    .header-mobile-menu {
         padding: 16.3vh 30px 30px 80px;
     }
 
@@ -4830,6 +4830,10 @@ a.prev.page-numbers {
         height: 350px;
     }
 
+    .common-text-contant {
+        margin-bottom: 30px;
+    }
+
     .space-sec-x {
         padding-left: 15px;
         padding-right: 15px;
@@ -4845,12 +4849,14 @@ a.prev.page-numbers {
         line-height: 30px;
     }
 
-    .slick-arrow{
+    .slick-arrow {
         width: 35px;
         height: 35px;
     }
 
-
+    .clip-path.clip-path-04::before {
+        clip-path: polygon(100% 12%, 100% 96%, 0 98%, 0 12%, 39% 0);
+    }
 
     .main-banner {
         padding: 186px 0 130px 0;
@@ -4870,11 +4876,11 @@ a.prev.page-numbers {
         height: 350px;
     }
 
-    .we-are-ready-to-take{
+    .we-are-ready-to-take {
         padding: 20px;
     }
 
-    .residential-services-sec{
+    .residential-services-sec {
         padding-bottom: 70px;
     }
 
@@ -4882,11 +4888,11 @@ a.prev.page-numbers {
         padding-top: 130px;
     }
 
-    .backup-generator-services-sec{
+    .backup-generator-services-sec {
         padding-bottom: 40px;
     }
 
-    .electric-charger-services-sec{
+    .electric-charger-services-sec {
         padding-top: 30px;
         padding-bottom: 53px;
     }
@@ -4900,12 +4906,12 @@ a.prev.page-numbers {
         height: 45px;
     }
 
-    .reviews-slide-text-info p{
+    .reviews-slide-text-info p {
         font-size: 16px;
         line-height: 28px;
     }
 
-    .reviews-testimonial-slider .slick-arrow{
+    .reviews-testimonial-slider .slick-arrow {
         right: 60px;
     }
 
@@ -4932,11 +4938,11 @@ a.prev.page-numbers {
         margin-bottom: 20px;
     }
 
-    .footer-logo-info-box .footer-logo-description-text{
+    .footer-logo-info-box .footer-logo-description-text {
         margin-bottom: 25px;
     }
 
-    .footer-page-link-box{
+    .footer-page-link-box {
         margin-top: 30px;
     }
 
@@ -4944,8 +4950,97 @@ a.prev.page-numbers {
     .resident-first-sec {
         padding: 0px 0 50px 0;
     }
+
+    .electrical-code-sec {
+        padding: 50px 0 70px 0;
+    }
+
+    .decorative-lighting-sec {
+        padding: 130px 0 40px 0;
+    }
+
+    .ceiling-fans-sec {
+        padding: 30px 0 60px 0;
+    }
+
+    .among-other-services-sec {
+        padding: 10px 0 35px 0;
+    }
     /*===============Residential Sevices [Page] CSS End ===============*/
 
+    /*===============Service and Repair [Page] CSS Start ===============*/
+    .services-and-repair-first-sec {
+        padding: 0px 0 54px 0;
+    }
+
+    .services-and-repair-first-sec .common-image {
+        height: 350px;
+    }
+
+    .electrical-panel-sec {
+        padding: 45px 0 70px 0;
+    }
+
+    .backup-generator-sec {
+        padding: 130px 0 70px 0;
+    }
+    /*===============Service and Repair [Page] CSS End ===============*/
+
+    /*===============Backup Generator [Page] CSS Start ===============*/
+    .backup-generator-first-sec {
+        padding: 0px 0 25px 0;
+    }
+
+    .off-grid-systems-sec {
+        padding: 47px 0 70px 0;
+    }
+
+    .how-to-prepare-sec {
+        padding: 130px 0 32px 0;
+    }
+
+    .differences-in-back-up-power-sec {
+        padding: 12px 0 47px 0;
+    }
+
+    .differences-in-back-up-power-table-image {
+        height: 181px;
+    }
+    /*===============Backup Generator [Page] CSS End ===============*/
+
+    /*===============Electric vehicle charger [Page] CSS Start ===============*/
+    .electric-vehicle-charger-first-sec {
+        padding: 0px 0 25px 0;
+    }
+
+    .ev-charging-sec {
+        padding: 47px 0 70px 0;
+    }
+    /*===============Electric vehicle charger [Page] CSS End ===============*/
+
+    /*===============Commercial [Page] CSS Start ===============*/
+    .commercial-first-sec {
+        padding: 0px 0 40px 0;
+    }
+
+    .commercial-first-sec .common-image {
+        height: 350px;
+    }
+
+    .commercial-we-specialize-sec {
+        padding: 30px 0 35px;
+    }
+    /*===============Commercial [Page] CSS End ===============*/
+
+    /*===============Contact Us [Page] CSS Start ===============*/
+    .contact-page-sec {
+        padding: 0px 0 30px 0;
+    }
+
+    .contact-page-left-box .contact-page-text-info {
+        margin-bottom: 20px;
+    }
+    /*===============Contact Us [Page] CSS End ===============*/
 
 
     /* ------------------------------------------------------------------------------- */

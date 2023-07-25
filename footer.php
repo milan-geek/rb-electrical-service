@@ -15,7 +15,7 @@
 	<div class="footer-top-box">
 		<div class="sec-wp">
 			<div class="container">
-				<div class="row align-items-baseline">
+				<div class="row">
 					<div class="col-xl-7 col-lg-7">
 						<div class="footer-logo-info-box">
 							<a href="#" class="footer-site-logo" title="RB Electrical Service">
