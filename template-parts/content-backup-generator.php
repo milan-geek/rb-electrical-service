@@ -107,7 +107,7 @@
 <!-- uninterruptable power systems section end -->
 
 <!-- how to prepare section start -->
-<section class="how-to-prepare-sec clip-path clip-path-02">
+<section class="how-to-prepare-sec clip-path clip-path-04">
     <div class="sec-wp">
         <div class="container">
             <div class="row">

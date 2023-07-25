@@ -116,7 +116,7 @@
         </div>
     </section>
 
-    <section class="backup-generator-sec clip-path clip-path-02">
+    <section class="backup-generator-sec clip-path clip-path-04">
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">

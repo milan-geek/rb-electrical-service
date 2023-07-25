@@ -5,11 +5,11 @@
     <div class="sec-wp">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-8">
                     <div class="main-banner-contant">
                         <h1 class="h1-title">Flat Rates, <span>Fast Service,</span> & No Surprises</h1>
                         <div class="main-banner-discription-text">
-                            <p>Residential. Commercial. Big or Small – We Do It All!</p>
+                            <p>Residential. Commercial. <span>Big or Small – We Do It All!</span></p>
                         </div>
                         <div class="main-banner-btn">
                             <a href="tel:(951) 201-0116" class="sec-btn" title="call (951) 201-0116">call (951)
@@ -114,12 +114,12 @@
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 order-2 order-lg-1">
                         <div class="common-image back-img"
                             style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-sec-image02.jpg)">
                         </div>
                     </div>
-                    <div class="col-lg-7">
+                    <div class="col-lg-7 order-1 order-lg-1">
                         <div class="common-text-contant ml-auto">
                             <div class="common-sec-title">
                                 <h3 class="h3-title">Service and Repair</h3>
@@ -176,12 +176,12 @@
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 order-2 order-lg-1">
                         <div class="common-image back-img"
                             style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-sec-image04.jpg)">
                         </div>
                     </div>
-                    <div class="col-lg-7">
+                    <div class="col-lg-7 order-1 order-lg-1">
                         <div class="common-text-contant ml-auto">
                             <div class="common-sec-title">
                                 <h3 class="h3-title">Electric vehicle charger</h3>
@@ -264,7 +264,7 @@
                                     project. I highly recommend this company.</p>
                             </div>
                             <div class="reviews-slide-bottom-text">
-                                <h6>reviews-slide-bottom-text</h6>
+                                <h6>Teresa Bravo</h6>
                             </div>
                         </div>
                     </div>
@@ -281,7 +281,7 @@
                                     project. I highly recommend this company.</p>
                             </div>
                             <div class="reviews-slide-bottom-text">
-                                <h6>reviews-slide-bottom-text</h6>
+                                <h6>Teresa Bravo</h6>
                             </div>
                         </div>
                     </div>
@@ -298,7 +298,7 @@
                                     project. I highly recommend this company.</p>
                             </div>
                             <div class="reviews-slide-bottom-text">
-                                <h6>reviews-slide-bottom-text</h6>
+                                <h6>Teresa Bravo</h6>
                             </div>
                         </div>
                     </div>

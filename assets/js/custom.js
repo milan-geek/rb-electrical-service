@@ -62,14 +62,9 @@ jQuery(document).ready(function ($) {
         prevArrow: '<button class="slide-arrow prev-arrow"><i class="fa fa-angle-left" aria-hidden="true"></i></button>',
         nextArrow: '<button class="slide-arrow next-arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></button>',
         responsive: [{
-            breakpoint: 992,
+            breakpoint: 1500,
             settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                infinite: true,
-                dots: false,
-                autoplay: true,
-                autoplaySpeed: 2000,
+                // arrows: false,
             }
         }]
     });
@@ -85,9 +80,14 @@ jQuery(document).ready(function ($) {
         autoplay: true,
         autoplaySpeed: 2000,
         responsive: [{
-            breakpoint: 1200,
+            breakpoint: 1500,
             settings: {
                 slidesToShow: 7,
+            }
+        },{
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 6,
             }
         }]
     });
@@ -101,24 +101,18 @@ jQuery(document).ready(function ($) {
         rows: 2,
         dots: false,
         arrows: false,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 2000,
         responsive: [{
             breakpoint: 1200,
             settings: {
-                slidesToShow: 3,
-                slidesToScroll: 2,
-                infinite: true,
-                dots: true,
+                slidesToShow: 4,
             }
         },
         {
             breakpoint: 768,
             settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1,
-                infinite: true,
-                dots: true,
             }
         }
         ]
@@ -208,7 +202,7 @@ jQuery(document).ready(function ($) {
         jQuery(".menu-item-has-children a").first().attr('href', 'javascript:void(0);');
 
         /* dropDown mobile menu show and hide */
-        jQuery('body').on('click', '#primary-menu .menu-item-has-children', function () {
+        jQuery('body').on('click', '#MainMenu .menu-item-has-children', function () {
             if ((jQuery(this).hasClass('active-sub-menu'))) {
                 jQuery(this).removeClass('active-sub-menu');
                 jQuery(this).find('.sub-menu').css('display', 'none');

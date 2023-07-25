@@ -16,7 +16,7 @@
 		<div class="sec-wp">
 			<div class="container">
 				<div class="row align-items-baseline">
-					<div class="col-lg-7">
+					<div class="col-xl-7 col-lg-7">
 						<div class="footer-logo-info-box">
 							<a href="#" class="footer-site-logo" title="RB Electrical Service">
 								<img src="<?php echo home_url(); ?>/wp-content/uploads/2023/07/footer-logo.png" alt="RB Electrical Service">
@@ -57,7 +57,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-xl-4 col-lg-3">
 						<div class="footer-page-link-box white-text">
 							<h5 class="h5-title">Services</h5>
 							<div class="footer-page-link">
@@ -72,7 +72,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-1">
+					<div class="col-xl-1 col-lg-2">
 						<div class="footer-page-link-box white-text">
 							<h5 class="h5-title">Navigation</h5>
 							<div class="footer-page-link">
@@ -124,7 +124,7 @@
 		<i class="fa-solid fa-angles-up"></i>
 	</div>
 	<div class="top-fixed-btn">
-		<a href="tel:(951) 201-0116" class="sec-btn" title="(951) 201-0116">call (951) 201-0116</a>
+		<a href="tel:(951) 201-0116" class="sec-btn" title="(951) 201-0116">call <span class="for-des">(951) 201-0116</span> <span class="for-mob">Now</span></a>
 		<a href="<?php echo home_url(); ?>/contact-us/" class="sec-btn contact-us-btn" title="Contact Us">Contact Us</a>
 	</div>
 </footer>
