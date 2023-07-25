@@ -178,31 +178,31 @@
                 </div>
                 <ul class="other-services-list">
                     <li>
-                        <span class="other-services-list-icon"><i class="fa-solid fa-circle-dot"></i></span>
+                        <span class="other-services-list-icon"></span>
                         <span class="other-services-list-icon-text">New Outlets Installation</span>
                     </li>
                     <li>
-                        <span class="other-services-list-icon"><i class="fa-solid fa-circle-dot"></i></span>
+                        <span class="other-services-list-icon"></span>
                         <span class="other-services-list-icon-text">Recessed Lights Installation</span>
                     </li>
                     <li>
-                        <span class="other-services-list-icon"><i class="fa-solid fa-circle-dot"></i></span>
+                        <span class="other-services-list-icon"></span>
                         <span class="other-services-list-icon-text">Landscape Lighting Installation</span>
                     </li>
                     <li>
-                        <span class="other-services-list-icon"><i class="fa-solid fa-circle-dot"></i></span>
+                        <span class="other-services-list-icon"></span>
                         <span class="other-services-list-icon-text">Led Lighting Upgrades</span>
                     </li>
                     <li>
-                        <span class="other-services-list-icon"><i class="fa-solid fa-circle-dot"></i></span>
+                        <span class="other-services-list-icon"></span>
                         <span class="other-services-list-icon-text">Add New TV or Phone Jacks</span>
                     </li>
                     <li>
-                        <span class="other-services-list-icon"><i class="fa-solid fa-circle-dot"></i></span>
+                        <span class="other-services-list-icon"></span>
                         <span class="other-services-list-icon-text">Flat-Screen TV Installation</span>
                     </li>
                     <li>
-                        <span class="other-services-list-icon"><i class="fa-solid fa-circle-dot"></i></span>
+                        <span class="other-services-list-icon"></span>
                         <span class="other-services-list-icon-text">Surround Sound & Home Audio</span>
                     </li>
                 </ul>

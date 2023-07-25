@@ -12,8 +12,7 @@
                             <p>Residential. Commercial. <span>Big or Small – We Do It All!</span></p>
                         </div>
                         <div class="main-banner-btn">
-                            <a href="tel:(951) 201-0116" class="sec-btn" title="call (951) 201-0116">call (951)
-                                201-0116</a>
+                            <a href="tel:(951) 201-0116" class="sec-btn" title="call (951) 201-0116">call <span class="for-des">(951) 201-0116</span> <span class="for-mob">Now</span></a>
                             <a href="<?php echo home_url(); ?>/contact-us/" class="sec-btn blue-btn" title="Contact Us">Contact Us</a>
                         </div>
                     </div>

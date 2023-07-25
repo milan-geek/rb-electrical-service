@@ -151,9 +151,8 @@
                             <h3 class="h3-title">DIFFERENCES IN BACK UP POWER OPTIONS BATTERY VS. GENERATOR. WHICH IS
                                 BEST FOR MY SCENARIO?</h3>
                         </div>
-                        <div class="differences-in-back-up-power-table-image back-img"
-                            style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/backup-generator-page-image-table01.jpg)">
-
+                        <div class="differences-in-back-up-power-table-image">
+                            <img src="<?php echo home_url(); ?>/wp-content/uploads/2023/07/backup-generator-page-image-table01.jpg" alt="">
                         </div>
                     </div>
                 </div>

@@ -582,10 +582,7 @@ textarea {
 
 .main-navigation {
     clear: both;
-    display: flex;
     float: none;
-    align-items: center;
-    gap: 60px;
     width: auto;
     height: 100%;
 }
@@ -1822,20 +1819,26 @@ a:hover {
 }
 
 .other-services-list {
-    column-count: 3;
-    column-gap: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto;
     width: 1091px;
     max-width: 100%;
 }
 
-.other-services-list li .other-services-list-icon {
-    color: var(--green-color);
-}
-
 .other-services-list li {
     display: inline-flex;
+    align-items: center;
     gap: 12px;
     margin-bottom: 5px;
+}
+
+.other-services-list li .other-services-list-icon {
+    --circle-ratio: 16px;
+    width: var(--circle-ratio);
+    height: var(--circle-ratio);
+    border-radius: calc(var(--circle-ratio) * 0.5);
+    border: calc(var(--circle-ratio)*0.25) solid var(--green-color);
+    background-color: var(--white-color);
 }
 
 .social-info {
@@ -2341,12 +2344,14 @@ button.close:hover {
     width: 160px;
     height: 42px;
     border-radius: 4px;
+    gap: 5px;
 }
 
 .header-mobile-menu {
     height: 100%;
     display: flex;
     align-items: center;
+    gap: 60px;
 }
 
 .menu-mainmenu-container {
@@ -2407,6 +2412,10 @@ button.close:hover {
     gap: 14px;
 }
 
+.main-banner-btn .sec-btn{
+    gap: 5px;
+}
+
 /*==========Main Bnner CSS End==========*/
 
 /*==========About Section CSS Start==========*/
@@ -2428,6 +2437,7 @@ button.close:hover {
     margin-top: 35px;
     padding: 25px 33px 33px;
     border-radius: 6px;
+    box-shadow: 0 12px 24px rgb(0 0 0/16%);
 }
 
 .we-are-ready-to-take-text-info .h4-title {
@@ -3024,7 +3034,12 @@ button.close:hover {
 
 .differences-in-back-up-power-table-image {
     width: 100%;
-    height: 454px;
+    height: 100%;
+}
+
+.differences-in-back-up-power-table-image img{
+    width: 100%;
+    height: 100%;
 }
 
 /*==========Differences In Back Up Power Section CSS End ==========*/
@@ -3078,7 +3093,6 @@ button.close:hover {
 
 .commercial-we-specialize-sec .other-services-list {
     width: 1130px;
-    column-gap: 60px;
 }
 
 /*==========Commercial We Specialize In Section CSS End ==========*/
@@ -3772,12 +3786,12 @@ a.prev.page-numbers {
         width: 313px;
     }
 
-    .main-navigation {
+    .header-mobile-menu{
         gap: 40px;
     }
 
     .main-navigation ul.nav-menu {
-        gap: 30px;
+        gap: 40px;
     }
 
     .clip-path::before {
@@ -3804,19 +3818,26 @@ a.prev.page-numbers {
         padding: 66px 70px 56px 70px;
     }
 
+    .categorey-icon{
+        width: 150px;
+    }
+
     .other-services-list {
-        column-gap: 60px;
         width: 100%;
+        grid-template-columns: auto auto;
     }
 
     .commercial-we-specialize-sec .other-services-list {
         width: 100%;
-        column-gap: 20px;
     }
 }
 
 @media screen and (max-width: 1199px) {
-    .main-navigation {
+    .header-mobile-menu {
+        gap: 30px;
+    }
+
+    .main-navigation ul.nav-menu {
         gap: 30px;
     }
 
@@ -3844,6 +3865,10 @@ a.prev.page-numbers {
         clip-path: polygon(100% 15%, 100% 89%, 0 100%, 0 15%, 39% 0);
     }
 
+    .common-text-contant {
+        max-width: 500px;
+    }
+
     .reviews-slide {
         max-width: 730px;
     }
@@ -3857,10 +3882,6 @@ a.prev.page-numbers {
         padding-right: 30px;
     }
 
-    .categorey-icon {
-        width: 150px;
-    }
-
     .footer-top-box {
         padding: 190px 0 70px 0;
         clip-path: polygon(70% 0, 100% 20%, 100% 100%, 0 100%, 0 20%);
@@ -3868,12 +3889,6 @@ a.prev.page-numbers {
 
     .footer-logo-info-box .footer-site-logo {
         width: 280px;
-    }
-
-    .other-services-list {
-        column-gap: 20px;
-        column-count: 2;
-        column-fill: balance;
     }
 }
 
@@ -3930,18 +3945,6 @@ a.prev.page-numbers {
 
     .site-branding a {
         width: 250px;
-    }
-
-    .header-call-icon {
-        color: var(--green-color);
-        font-size: 30px;
-        position: fixed !important;
-        top: 25px;
-        right: 120px;
-    }
-
-    .header-call-icon:hover {
-        color: var(--white-color);
     }
 
     .menu-toggle {
@@ -4001,11 +4004,14 @@ a.prev.page-numbers {
         width: 100vw;
         height: 100vh;
         background: var(--dark-color);
-        padding: 16.3vh 30px 30px 150px;
+        padding: 16.3vh 30px 30px 30px;
         overflow: auto;
         opacity: 0;
         scrollbar-color: transparent transparent;
         transition: 0.5s;
+        flex-direction: column;
+        align-items: start;
+        gap: 40;
         z-index: 101;
     }
 
@@ -4028,6 +4034,7 @@ a.prev.page-numbers {
 
     .menu-mainmenu-container {
         align-items: start;
+        height: auto;
     }
 
     .main-navigation ul.nav-menu {
@@ -4105,6 +4112,10 @@ a.prev.page-numbers {
     .main-navigation ul.nav-menu ul li a {
         padding: 0;
         font-size: 16px;
+    }
+
+    .header-btn .sec-btn:hover{
+        background-color: var(--primary-color);
     }
 
     .h1-title {
@@ -4371,10 +4382,6 @@ a.prev.page-numbers {
     .differences-in-back-up-power-box .sec-title {
         margin-bottom: 30px;
     }
-
-    .differences-in-back-up-power-table-image {
-        height: 337px;
-    }
     /*===============Backup Generator [Page] CSS End ===============*/
 
     /*===============Electric vehicle charger [Page] CSS Start ===============*/
@@ -4470,10 +4477,7 @@ a.prev.page-numbers {
     }
 
     .other-services-list {
-        display: grid;
-        column-gap: unset;
-        column-count: unset;
-        column-fill: unset;
+        grid-template-columns: auto;
     }
 
     .main-banner {
@@ -4513,9 +4517,7 @@ a.prev.page-numbers {
     /*===============Service and Repair [Page] CSS End ===============*/
 
     /*===============Backup Generator [Page] CSS Start ===============*/
-    .differences-in-back-up-power-table-image {
-        height: 250px;
-    }
+
     /*===============Backup Generator [Page] CSS End ===============*/
 
     /*===============Commercial [Page] CSS Start ===============*/
@@ -4556,10 +4558,6 @@ a.prev.page-numbers {
 
     .site-branding::before {
         right: -15px;
-    }
-
-    .header-call-icon {
-        right: 100px;
     }
 
     .h1-title {
@@ -4682,10 +4680,6 @@ a.prev.page-numbers {
     .backup-generator-first-sec {
         padding: 20px 0 25px 0;
     }
-
-    .differences-in-back-up-power-table-image {
-        height: 252px;
-    }
     /*===============Backup Generator [Page] CSS End ===============*/
 
     /*===============Electric vehicle charger [Page] CSS Start ===============*/
@@ -4799,11 +4793,6 @@ a.prev.page-numbers {
 
     .header-mobile-menu {
         padding: 16.3vh 30px 30px 80px;
-    }
-
-    .header-call-icon {
-        right: 70px;
-        font-size: 24px;
     }
 
     .h1-title {
@@ -5001,10 +4990,6 @@ a.prev.page-numbers {
 
     .differences-in-back-up-power-sec {
         padding: 12px 0 47px 0;
-    }
-
-    .differences-in-back-up-power-table-image {
-        height: 181px;
     }
     /*===============Backup Generator [Page] CSS End ===============*/
 

@@ -62,31 +62,31 @@
                 </div>
                 <ul class="other-services-list">
                     <li>
-                        <span class="other-services-list-icon"><i class="fa-solid fa-circle-dot"></i></span>
+                        <span class="other-services-list-icon"></span>
                         <span class="other-services-list-icon-text">Tenant Electrical Improvements</span>
                     </li>
                     <li>
-                        <span class="other-services-list-icon"><i class="fa-solid fa-circle-dot"></i></span>
+                        <span class="other-services-list-icon"></span>
                         <span class="other-services-list-icon-text">Ground-up Electrical Construction</span>
                     </li>
                     <li>
-                        <span class="other-services-list-icon"><i class="fa-solid fa-circle-dot"></i></span>
+                        <span class="other-services-list-icon"></span>
                         <span class="other-services-list-icon-text">Dedicated Circuitry Installation</span>
                     </li>
                     <li>
-                        <span class="other-services-list-icon"><i class="fa-solid fa-circle-dot"></i></span>
+                        <span class="other-services-list-icon"></span>
                         <span class="other-services-list-icon-text">Upgraded High-Efficiency Lighting</span>
                     </li>
                     <li>
-                        <span class="other-services-list-icon"><i class="fa-solid fa-circle-dot"></i></span>
+                        <span class="other-services-list-icon"></span>
                         <span class="other-services-list-icon-text">Facility Electrical Maintenance</span>
                     </li>
                     <li>
-                        <span class="other-services-list-icon"><i class="fa-solid fa-circle-dot"></i></span>
+                        <span class="other-services-list-icon"></span>
                         <span class="other-services-list-icon-text">Electrical Repair or Troubleshooting</span>
                     </li>
                     <li>
-                        <span class="other-services-list-icon"><i class="fa-solid fa-circle-dot"></i></span>
+                        <span class="other-services-list-icon"></span>
                         <span class="other-services-list-icon-text">Voice, Data, and Television Cabling</span>
                     </li>
                 </ul>
