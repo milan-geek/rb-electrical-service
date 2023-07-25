@@ -20,12 +20,12 @@
     <div class="sec-wp">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-5">
+                <div class="col-lg-5 order-2 order-lg-1">
                     <div class="common-image back-img"
                         style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-and-repair-page-image01.jpg)">
                     </div>
                 </div>
-                <div class="col-lg-7">
+                <div class="col-lg-7 order-1 order-lg-1">
                     <div class="common-text-contant ml-auto">
                         <div class="sec-title common-sec-title">
                             <h2 class="h2-title">electrical service and repair</h2>
@@ -94,12 +94,12 @@
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 order-2 order-lg-1">
                         <div class="common-image back-img"
                             style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-and-repair-page-image03.jpg)">
                         </div>
                     </div>
-                    <div class="col-lg-7">
+                    <div class="col-lg-7 order-1 order-lg-1">
                         <div class="common-text-contant ml-auto">
                             <div class="common-sec-title">
                                 <h3 class="h3-title">LED Lighting</h3>
@@ -151,12 +151,12 @@
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 order-2 order-lg-1">
                         <div class="common-image back-img"
                             style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-and-repair-page-image04.jpg)">
                         </div>
                     </div>
-                    <div class="col-lg-7">
+                    <div class="col-lg-7 order-1 order-lg-1">
                         <div class="common-text-contant ml-auto">
                             <div class="common-sec-title">
                                 <h3 class="h3-title">Brands & Partners</h3>

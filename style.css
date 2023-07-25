@@ -1739,7 +1739,8 @@ a:hover {
     bottom: -10px;
     left: 50%;
     transform: translateX(-50%);
-    width: 430px;
+    width: calc(100% - 40px);
+    max-width: 100%;
     height: 50px;
     background-color: var(--green-color);
     opacity: 0.5;
@@ -1753,7 +1754,7 @@ a:hover {
     bottom: -20px;
     left: 50%;
     transform: translateX(-50%);
-    width: 390px;
+    width: calc(100% - 80px);
     height: 50px;
     background-color: var(--green-color);
     opacity: 0.3;
@@ -3125,6 +3126,7 @@ button.close:hover {
 
 .contact-page-call-info a .h3-title {
     transition: 0.3s;
+    margin-bottom: 0px;
 }
 
 .contact-page-call-info a:hover .h3-title {
@@ -3793,14 +3795,6 @@ a.prev.page-numbers {
         clip-path: polygon(0 0, 100% 0, 100% 75%, 100% 75%, 26% 100%, 0 75%);
     }
 
-    .common-image::before {
-        width: 388px;
-    }
-
-    .common-image::after {
-        width: 348px;
-    }
-
     .reviews-slide {
         max-width: 870px;
     }
@@ -3847,14 +3841,6 @@ a.prev.page-numbers {
 
     .clip-path.clip-path-04::before {
         clip-path: polygon(100% 15%, 100% 89%, 0 100%, 0 15%, 39% 0);
-    }
-
-    .common-image::before {
-        width: 330px;
-    }
-
-    .common-image::after {
-        width: 290px;
     }
 
     .reviews-slide {
@@ -4143,6 +4129,10 @@ a.prev.page-numbers {
         clip-path: polygon(100% 0, 100% 92%, 72% 100%, 0 92%, 0 0);
     }
 
+    .clip-path.clip-path-04::before {
+        clip-path: polygon(100% 15%, 100% 93%, 0 98%, 0 15%, 39% 0);
+    }
+
     .common-text-contant {
         max-width: unset;
         margin-bottom: 50px;
@@ -4156,16 +4146,12 @@ a.prev.page-numbers {
         margin-bottom: 30px;
     }
 
+    .common-text-contant .common-description-text p {
+        margin-bottom: 10px;
+    }
+
     .common-text-btn {
         margin-top: 30px;
-    }
-
-    .common-image::before {
-        width: 650px;
-    }
-
-    .common-image::after {
-        width: 610px;
     }
 
     .top-fixed-btn {
@@ -4175,6 +4161,10 @@ a.prev.page-numbers {
         left: 50%;
         transform: translate(-50%, 0%);
         display: none;
+    }
+
+    .other-contant-list-box .sec-title {
+        margin-bottom: 30px;
     }
 
     .about-sec .common-text-contant {
@@ -4207,6 +4197,7 @@ a.prev.page-numbers {
 
     .commercial-services-sec {
         padding-top: 20px;
+        padding-bottom: 40px;
     }
 
     .reviews-sec {
@@ -4292,23 +4283,247 @@ a.prev.page-numbers {
     }
 
     /*===============Services [Page] CSS Start ===============*/
+
+    /*===============Residential Sevices [Page] CSS Start ===============*/
     .resident-first-sec {
         padding: 56px 0 50px 0;
     }
 
     .electrical-code-sec {
-        padding: 50px 0 224px 0;
+        padding: 50px 0 100px 0;
     }
 
     .electrical-code-sec .sec-title {
         margin-bottom: 45px;
     }
 
+    .dedicated-circuitry-sec {
+        margin-top: 0px;
+    }
+
+    .decorative-lighting-sec {
+        padding: 160px 0 50px 0;
+    }
+
+    .ceiling-fans-sec {
+        padding: 50px 0 80px 0;
+    }
+
+    .among-other-services-sec {
+        padding: 20px 0 35px 0;
+    }
+    /*===============Residential Sevices [Page] CSS End ===============*/
+
+    /*===============Service and Repair [Page] CSS Start ===============*/
+    .services-and-repair-first-sec {
+        padding: 56px 0 54px 0;
+    }
+
+    .electrical-panel-sec {
+        padding: 45px 0 100px 0;
+    }
+
+    .electrical-panel-sec .sec-title {
+        margin-bottom: 45px;
+    }
+
+    .led-lighting-sec {
+        margin-top: 0px;
+    }
+
+    .backup-generator-sec {
+        padding: 159px 0 100px 0;
+    }
+
+    .brand-and-partners-sec {
+        padding: 0px 0 70px 0;
+    }
+    /*===============Service and Repair [Page] CSS End ===============*/
+
+    /*===============Backup Generator [Page] CSS Start ===============*/
+    .backup-generator-first-sec {
+        padding: 56px 0 25px 0;
+    }
+
+    .off-grid-systems-sec {
+        padding: 75px 0 100px 0;
+    }
+
+    .uninterruptable-power-systems-sec {
+        margin-top: 0px;
+    }
+    .how-to-prepare-sec {
+        padding: 159px 0 52px 0;
+    }
+
+    .how-to-prepare-sec .common-text-contant {
+        margin-bottom: 0px;
+    }
+
+    .differences-in-back-up-power-sec {
+        padding: 22px 0 47px 0;
+    }
+
+    .differences-in-back-up-power-box {
+        max-width: unset;
+    }
+
+    .differences-in-back-up-power-box .sec-title {
+        margin-bottom: 30px;
+    }
+
+    .differences-in-back-up-power-table-image {
+        height: 337px;
+    }
+    /*===============Backup Generator [Page] CSS End ===============*/
+
+    /*===============Electric vehicle charger [Page] CSS Start ===============*/
+    .electric-vehicle-charger-first-sec {
+        padding: 56px 0 25px 0;
+    }
+
+    .ev-charging-sec {
+        padding: 76px 0 100px 0;
+    }
+
+    .vault-outlets-sec {
+        padding-bottom: 70px;
+        margin-top: 0px;
+    }
+    /*===============Electric vehicle charger [Page] CSS End ===============*/
+
+    /*===============Commercial [Page] CSS Start ===============*/
+    .commercial-first-sec {
+        padding: 56px 0 50px 0;
+    }
+
+    .commercial-we-specialize-sec {
+        padding: 50px 0 35px;
+    }
+    /*===============Commercial [Page] CSS End ===============*/
+
     /*===============Services [Page] CSS End ===============*/
 
+    /*===============Contact Us [Page] CSS Start ===============*/
+    .contact-page-sec {
+        padding: 56px 0 30px 0;
+    }
+
+    .contact-page-left-box {
+        max-width: unset;
+    }
+
+    .contact-page-left-box .contact-page-text-info {
+        margin-bottom: 30px;
+    }
+
+    .contact-page-call-info {
+        margin-bottom: 30px;
+    }
+
+    .contact-page-call-info a .call-icon {
+        font-size: 25px;
+    }
+
+    .contact-page-call-info a .h3-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .social-info {
+        gap: 15px;
+    }
+
+    .social-info .social-icon {
+        font-size: 30px;
+    }
+
+    .contact-page-right-box {
+        margin-top: 40px;
+    }
+    /*===============Contact Us [Page] CSS End ===============*/
 }
 
 @media screen and (max-width: 767px) {
+    .h1-title {
+        font-size: 60px;
+        line-height: 64px;
+    }
+
+    .h2-title {
+        font-size: 40px;
+        line-height: 44px;
+    }
+
+    h2.h1-title {
+        font-size: 50px;
+        line-height: 54px;
+    }
+
+    .h3-title {
+        font-size: 33px;
+        line-height: 36px;
+    }
+
+    .common-image {
+        height: 500px;
+    }
+
+    .other-services-list {
+        display: grid;
+        column-gap: unset;
+        column-count: unset;
+        column-fill: unset;
+    }
+
+    .main-banner {
+        padding: 226px 0 160px 0;
+    }
+
+    .main-banner::before {
+        width: 700px;
+    }
+
+    .main-banner-discription-text {
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+
+    .main-banner-contant .main-banner-discription-text p {
+        font-size: 25px;
+        line-height: 34px;
+    }
+
+    .about-sec .common-image {
+        height: 500px;
+    }
+
+    .about-sec .common-image.back-img {
+        background-position: center;
+    }
+
+    .categorey-icon {
+        width: 130px;
+    }
+
+    /*===============Service and Repair [Page] CSS Start ===============*/
+    .services-and-repair-first-sec .common-image {
+        height: 500px;
+    }
+    /*===============Service and Repair [Page] CSS End ===============*/
+
+    /*===============Backup Generator [Page] CSS Start ===============*/
+    .differences-in-back-up-power-table-image {
+        height: 250px;
+    }
+    /*===============Backup Generator [Page] CSS End ===============*/
+
+    /*===============Commercial [Page] CSS Start ===============*/
+    .commercial-first-sec .common-image {
+        height: 500px;
+    }
+    /*===============Commercial [Page] CSS End ===============*/
+
     .comment-form p.comment-form-author,
     .comment-form p.comment-form-email {
         width: 100%;
@@ -4334,6 +4549,176 @@ a.prev.page-numbers {
     .container-xxl {
         --container-space: calc(var(--gutter));
     }
+
+    .site-branding a {
+        width: 220px;
+    }
+
+    .site-branding::before {
+        right: -15px;
+    }
+
+    .header-call-icon{
+        right: 100px;
+    }
+
+    .h1-title {
+        font-size: 50px;
+        line-height: 54px;
+    }
+
+    .h2-title {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    h2.h1-title {
+        font-size: 40px;
+        line-height: 42px;
+    }
+
+    .h3-title {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    .sec-btn,
+    .woocommerce #respond input#submit,
+    .woocommerce a.button,
+    .woocommerce button.button,
+    .woocommerce input.button {
+        width: 180px;
+        height: 44px;
+    }
+
+    .form-input,
+    .input-text,
+    .select2-container--default
+        .select2-selection--single
+        .select2-selection__rendered,
+    select {
+        height: 45px;
+    }
+
+    .common-image {
+        height: 400px;
+    }
+
+    .clip-path::before {
+        clip-path: polygon(100% 0, 100% 95%, 66% 100%, 0 95%, 0 3%);
+    }
+
+    .clip-path.clip-path-02::before {
+        clip-path: polygon(100% 11%, 100% 100%, 0 100%, 0 11%, 39% 0);
+    }
+
+    .clip-path.clip-path-03::before {
+        clip-path: polygon(100% 0, 100% 95%, 72% 100%, 0 95%, 0 0);
+    }
+
+    .clip-path.clip-path-04::before {
+        clip-path: polygon(100% 12%, 100% 93%, 0 98%, 0 12%, 39% 0);
+    }
+
+    .main-banner::before {
+        width: 550px;
+    }
+
+    .main-banner-contant .main-banner-discription-text p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .about-sec {
+        padding-top: 45px;
+        padding-bottom: 30px;
+    }
+
+    .about-sec .common-image {
+        height: 400px;
+    }
+
+    .reviews-slide-text-info {
+        height: 230px;
+    }
+
+    .reviews-slide .reviews-contant-box {
+        padding: 25px 25px 25px 25px;
+    }
+
+    .reviews-slide-text-info p {
+        font-size: 18px;
+        line-height: 36px;
+    }
+
+    .reviews-slide-bottom-text {
+        margin-top: 15px;
+    }
+
+    .gallery-slider .slick-list {
+        width: calc(100% + 220px);
+        max-width: unset;
+        padding-left: 0;
+        padding-right: 100px;
+    }
+
+    /*===============Residential Sevices [Page] CSS Start ===============*/
+    .resident-first-sec {
+        padding: 20px 0 50px 0;
+    }
+    /*===============Residential Sevices [Page] CSS End ===============*/
+
+
+    /*===============Service and Repair [Page] CSS Start ===============*/
+    .services-and-repair-first-sec {
+        padding: 20px 0 54px 0;
+    }
+
+    .services-and-repair-first-sec .common-image {
+        height: 400px;
+    }
+    /*===============Service and Repair [Page] CSS End ===============*/
+
+    /*===============Backup Generator [Page] CSS Start ===============*/
+    .backup-generator-first-sec {
+        padding: 20px 0 25px 0;
+    }
+
+    .differences-in-back-up-power-table-image {
+        height: 252px;
+    }
+    /*===============Backup Generator [Page] CSS End ===============*/
+
+    /*===============Electric vehicle charger [Page] CSS Start ===============*/
+    .electric-vehicle-charger-first-sec {
+        padding: 20px 0 25px 0;
+    }
+    /*===============Electric vehicle charger [Page] CSS End ===============*/
+
+    /*===============Commercial [Page] CSS Start ===============*/
+    .commercial-first-sec {
+        padding: 20px 0 50px 0;
+    }
+
+    .commercial-first-sec .common-image {
+        height: 400px;
+    }
+    /*===============Commercial [Page] CSS End ===============*/
+
+    /*===============Contact Us [Page] CSS Start ===============*/
+    .contact-page-sec {
+        padding: 20px 0 30px 0;
+    }
+
+    .contact-page-call-info a .call-icon {
+        font-size: 20px;
+    }
+
+    .contact-page-call-info a .h3-title {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    /*===============Contact Us [Page] CSS End ===============*/
 
     .thank-text {
         padding-top: 80px;
@@ -4366,6 +4751,16 @@ a.prev.page-numbers {
     }
 }
 
+@media screen and (max-width: 425px) {
+    .main-banner-btn{
+        flex-direction: column;
+    }
+
+    .footer-bottom-other-link p a.footer-bottom-site-name{
+        display: inline-block;
+    }
+}
+
 @media screen and (max-width: 400px) {
     .container,
     .container-fluid,
@@ -4381,20 +4776,186 @@ a.prev.page-numbers {
         --container-space: calc(var(--gutter) / 2);
     }
 
+    .site-branding {
+        left: 15px;
+    }
+
+    .site-branding a {
+        width: 170px;
+    }
+
+    .menu-toggle {
+        right: 15px;
+        width: 35px;
+    }
+
+    .menu-toggle span{
+        margin-bottom: 6px;
+    }
+
+    .toggled .menu-toggle span:nth-child(1) {
+        top: 10px;
+    }
+
+    .header-mobile-menu{
+        padding: 16.3vh 30px 30px 80px;
+    }
+
+    .header-call-icon {
+        right: 70px;
+        font-size: 24px;
+    }
+
+    .h1-title {
+        font-size: 45px;
+        line-height: 48px;
+    }
+
+    .h2-title {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    h2.h1-title {
+        font-size: 35px;
+        line-height: 38px;
+    }
+
+    .h4-title {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .common-image {
+        height: 350px;
+    }
+
+    .space-sec-x {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    body {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .slick-arrow{
+        width: 35px;
+        height: 35px;
+    }
+
+
+
+    .main-banner {
+        padding: 186px 0 130px 0;
+        clip-path: polygon(0 0, 100% 0, 100% 75%, 100% 92%, 26% 100%, 0 92%);
+    }
+
+    .main-banner::before {
+        width: 360px;
+    }
+
+    .main-banner-contant .main-banner-discription-text p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .about-sec .common-image {
+        height: 350px;
+    }
+
+    .we-are-ready-to-take{
+        padding: 20px;
+    }
+
+    .residential-services-sec{
+        padding-bottom: 70px;
+    }
+
+    .backup-generator-services-sec {
+        padding-top: 130px;
+    }
+
+    .backup-generator-services-sec{
+        padding-bottom: 40px;
+    }
+
+    .electric-charger-services-sec{
+        padding-top: 30px;
+        padding-bottom: 53px;
+    }
+
+    .reviews-sec .reviews-sec-contant .sec-title {
+        margin-bottom: 27px;
+    }
+
+    .reviews-sec .reviews-sec-contant .reviews-icon {
+        width: 50px;
+        height: 45px;
+    }
+
+    .reviews-slide-text-info p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .reviews-testimonial-slider .slick-arrow{
+        right: 60px;
+    }
+
+    .category-sec {
+        padding-top: 32px;
+        padding-bottom: 10px;
+    }
+
+    .categorey-icon {
+        width: 110px;
+    }
+
+    .gallery-sec {
+        padding-top: 10px;
+    }
+
+    .footer-top-box {
+        padding: 60px 0 40px 0;
+        clip-path: polygon(70% 0, 100% 3%, 100% 100%, 0 100%, 0 3%);
+    }
+
+    .footer-logo-info-box .footer-site-logo {
+        width: 220px;
+        margin-bottom: 20px;
+    }
+
+    .footer-logo-info-box .footer-logo-description-text{
+        margin-bottom: 25px;
+    }
+
+    .footer-page-link-box{
+        margin-top: 30px;
+    }
+
+    /*===============Residential Sevices [Page] CSS Start ===============*/
+    .resident-first-sec {
+        padding: 0px 0 50px 0;
+    }
+    /*===============Residential Sevices [Page] CSS End ===============*/
+
+
+
+    /* ------------------------------------------------------------------------------- */
+
     .modal-dialog {
         width: calc(100vw - 30px);
     }
 
     .common-popup-text {
         padding: 20px 15px;
-    }
-
-    .site-branding {
-        left: 15px;
-    }
-
-    .menu-toggle {
-        right: 15px;
     }
 
     .form-input,
