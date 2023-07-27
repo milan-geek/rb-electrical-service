@@ -7,11 +7,11 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="main-banner-contant">
-                        <h1 class="h1-title">Flat Rates, <span>Fast Service,</span> & No Surprises</h1>
-                        <div class="main-banner-discription-text">
+                        <h1 class="h1-title wow fadeInUp">Flat Rates, <span>Fast Service,</span> & No Surprises</h1>
+                        <div class="main-banner-discription-text wow fadeInUp">
                             <p>Residential. Commercial. <span>Big or Small – We Do It All!</span></p>
                         </div>
-                        <div class="main-banner-btn">
+                        <div class="main-banner-btn wow fadeInUp">
                             <a href="tel:(951) 201-0116" class="sec-btn" title="call (951) 201-0116">call <span class="for-des">(951) 201-0116</span> <span class="for-mob">Now</span></a>
                             <a href="<?php echo home_url(); ?>/contact-us/" class="sec-btn blue-btn" title="Contact Us">Contact Us</a>
                         </div>
@@ -28,15 +28,15 @@
     <div class="sec-wp">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5">
+                <div class="col-lg-5 wow fadeInLeft">
                     <div class="common-image back-img"
                         style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/about-sec-image.jpg)">
                     </div>
                 </div>
-                <div class="col-lg-7">
+                <div class="col-lg-7 wow fadeInRight">
                     <div class="common-text-contant ml-auto">
                         <div class="sec-title common-sec-title">
-                            <h2 class="h2-title">About Us</h2>
+                            <h3 class="h3-title">About Us</h3>
                         </div>
                         <div class="common-description-text">
                             <p>RB Electrical is a team of skilled professionals that provide personalized services to
@@ -50,7 +50,7 @@
                         <div class="we-are-ready-to-take back-img"
                             style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/about-sec-image02.jpg)">
                             <div class="we-are-ready-to-take-text-info white-text">
-                                <h4 class="h4-title">We are ready to take on any project</h4>
+                                <h5 class="h5-title">We are ready to take on any project</h5>
                                 <div class="we-are-ready-to-take-discription-text">
                                     <p>residential or commercial, big or small.</p>
                                 </div>
@@ -75,17 +75,17 @@
         <div class="sec-wp">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-lg-12  wow fadeInUp">
                         <div class="sec-title">
-                            <h2 class="h1-title">our services</h2>
+                            <h2 class="h2-title">our services</h2>
                         </div>
                     </div>
                 </div>
                 <div class="row align-items-center">
-                    <div class="col-lg-7">
+                    <div class="col-lg-7 order-2 order-lg-1 wow fadeInLeft">
                         <div class="common-text-contant">
                             <div class="common-sec-title">
-                                <h3 class="h3-title">Residential</h3>
+                                <h4 class="h4-title">Residential</h4>
                             </div>
                             <div class="common-description-text">
                                 <p>We can make your home safer, more functional, and more efficient. We specialize in new
@@ -99,7 +99,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 order-1 order-lg-1 wow fadeInRight">
                         <div class="common-image back-img"
                             style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-sec-image01.jpg)">
                         </div>
@@ -113,15 +113,15 @@
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-5 order-2 order-lg-1">
+                    <div class="col-lg-5 wow fadeInLeft">
                         <div class="common-image back-img"
                             style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-sec-image02.jpg)">
                         </div>
                     </div>
-                    <div class="col-lg-7 order-1 order-lg-1">
+                    <div class="col-lg-7 wow fadeInRight">
                         <div class="common-text-contant ml-auto">
                             <div class="common-sec-title">
-                                <h3 class="h3-title">Service and Repair</h3>
+                                <h4 class="h4-title">Service and Repair</h4>
                             </div>
                             <div class="common-description-text">
                                 <p>When it comes to getting the best possible service and repair, we will do everything that
@@ -143,10 +143,10 @@
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-7">
+                    <div class="col-lg-7 order-2 order-lg-1 wow fadeInLeft">
                         <div class="common-text-contant">
                             <div class="common-sec-title">
-                                <h3 class="h3-title">Backup generator</h3>
+                                <h4 class="h4-title">Backup generator</h4>
                             </div>
                             <div class="common-description-text">
                                 <p>At RB Electrical Service we understand what it means to have power. That's why we offer a
@@ -161,7 +161,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 order-1 order-lg-1 wow fadeInRight">
                         <div class="common-image back-img"
                             style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-sec-image03.jpg)">
                         </div>
@@ -175,15 +175,15 @@
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-5 order-2 order-lg-1">
+                    <div class="col-lg-5 wow fadeInLeft">
                         <div class="common-image back-img"
                             style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-sec-image04.jpg)">
                         </div>
                     </div>
-                    <div class="col-lg-7 order-1 order-lg-1">
+                    <div class="col-lg-7 wow fadeInRight">
                         <div class="common-text-contant ml-auto">
                             <div class="common-sec-title">
-                                <h3 class="h3-title">Electric vehicle charger</h3>
+                                <h4 class="h4-title">Electric vehicle charger</h4>
                             </div>
                             <div class="common-description-text">
                                 <p>RB Electrical Service is an authorized provider of Tesla charging stations and we install
@@ -204,10 +204,10 @@
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-7">
+                    <div class="col-lg-7 order-2 order-lg-1 wow fadeInLeft">
                         <div class="common-text-contant">
                             <div class="common-sec-title">
-                                <h3 class="h3-title">Commercial</h3>
+                                <h4 class="h4-title">Commercial</h4>
                             </div>
                             <div class="common-description-text">
                                 <p>RB Electrical Service offers a comprehensive range of commercial electrical services
@@ -221,7 +221,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 order-1 order-lg-1 wow fadeInRight">
                         <div class="common-image back-img"
                             style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-sec-image05.jpg)">
                         </div>
@@ -242,10 +242,10 @@
                 <div class="col-lg-12">
                     <div class="reviews-sec-contant">
                         <div class="sec-title white-text">
-                            <h2 class="h2-title">Reviews</h2>
+                            <h3 class="h3-title">Reviews</h3>
                         </div>
-                        <div class="reviews-icon back-img"
-                            style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/right-quote-sign.png)">
+                        <div class="reviews-icon">
+                            <img src="<?php echo home_url(); ?>/wp-content/uploads/2023/07/right-quote-sign.png" alt="">
                         </div>
                     </div>
                 </div>

@@ -20,15 +20,15 @@
     <div class="sec-wp">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-5 order-2 order-lg-1">
+                <div class="col-lg-5">
                     <div class="common-image back-img"
                         style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/backup-generator-page-image01.jpg)">
                     </div>
                 </div>
-                <div class="col-lg-7 order-1 order-lg-1">
+                <div class="col-lg-7">
                     <div class="common-text-contant ml-auto">
                         <div class="sec-title common-sec-title">
-                            <h2 class="h2-title">residential or business generator maintenance</h2>
+                            <h3 class="h3-title">residential or business generator maintenance</h3>
                         </div>
                         <div class="common-description-text">
                             <p>At RB Electrical, we take your generator needs very seriously. Our trained professionals
@@ -51,10 +51,10 @@
     <div class="sec-wp">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-7">
+                <div class="col-lg-7 order-2 order-lg-1">
                     <div class="common-text-contant">
                         <div class="common-sec-title">
-                            <h3 class="h3-title">OFF GRID SYSTEMS</h3>
+                            <h4 class="h4-title">OFF GRID SYSTEMS</h4>
                         </div>
                         <div class="common-description-text">
                             <p>Our basic off-grid system consists of solar, battery storage, and generator back up
@@ -64,7 +64,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5">
+                <div class="col-lg-5 order-1 order-lg-1">
                     <div class="common-image back-img"
                         style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/backup-generator-page-image02.jpg)">
                     </div>
@@ -80,15 +80,15 @@
     <div class="sec-wp">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-5 order-2 order-lg-1">
+                <div class="col-lg-5">
                     <div class="common-image back-img"
                         style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/backup-generator-page-image03.jpg)">
                     </div>
                 </div>
-                <div class="col-lg-7 order-1 order-lg-1">
+                <div class="col-lg-7">
                     <div class="common-text-contant ml-auto">
                         <div class="common-sec-title">
-                            <h3 class="h3-title">Uninterruptable Power Systems (UPS)</h3>
+                            <h4 class="h4-title">Uninterruptable Power Systems (UPS)</h4>
                         </div>
                         <div class="common-description-text">
                             <p>Uninterruptable power supplies (UPS) are devices that provide backup power to your
@@ -114,7 +114,7 @@
                 <div class="col-lg-12">
                     <div class="common-text-contant">
                         <div class="common-sec-title">
-                            <h3 class="h3-title">How to Prepare for a Power Outage</h3>
+                            <h4 class="h4-title">How to Prepare for a Power Outage</h4>
                         </div>
                         <div class="common-description-text">
                             <p>When the power goes out and your home is plunged into darkness, you worry about more than
@@ -148,8 +148,8 @@
                 <div class="col-lg-12">
                     <div class="differences-in-back-up-power-box">
                         <div class="sec-title">
-                            <h3 class="h3-title">DIFFERENCES IN BACK UP POWER OPTIONS BATTERY VS. GENERATOR. WHICH IS
-                                BEST FOR MY SCENARIO?</h3>
+                            <h4 class="h4-title">DIFFERENCES IN BACK UP POWER OPTIONS BATTERY VS. GENERATOR. WHICH IS
+                                BEST FOR MY SCENARIO?</h4>
                         </div>
                         <div class="differences-in-back-up-power-table-image">
                             <img src="<?php echo home_url(); ?>/wp-content/uploads/2023/07/backup-generator-page-image-table01.jpg" alt="">

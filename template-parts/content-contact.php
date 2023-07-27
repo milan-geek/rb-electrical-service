@@ -30,7 +30,7 @@
                         <div class="contact-page-call-info">
                             <a href="tel:(951) 201-0116" title="(951) 201-0116">
                                 <span class="call-icon"><i class="fa-solid fa-phone"></i></span>
-                                <h3 class="call-icon-text-info h3-title">(951) 201-0116</h3>
+                                <h4 class="call-icon-text-info h4-title">(951) 201-0116</h4>
                             </a>
                         </div>
                         <ul class="social-info">
@@ -58,7 +58,7 @@
                 <div class="col-lg-5">
                     <div class="contact-page-right-box">
                         <div class="sec-title">
-                            <h3 class="h3-title">Contact Us</h3>
+                            <h4 class="h4-title">Contact Us</h4>
                         </div>
                         <div class="contact-form-box">
                             <?php echo do_shortcode( '[contact-form-7 id="111" title="Contact form 1"]' ); ?>

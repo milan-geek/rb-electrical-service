@@ -16,7 +16,7 @@
 		<div class="sec-wp">
 			<div class="container">
 				<div class="row">
-					<div class="col-xl-7 col-lg-7">
+					<div class="col-xl-7 col-lg-7 wow fadeInLeft">
 						<div class="footer-logo-info-box">
 							<a href="#" class="footer-site-logo" title="RB Electrical Service">
 								<img src="<?php echo home_url(); ?>/wp-content/uploads/2023/07/footer-logo.png" alt="RB Electrical Service">
@@ -57,9 +57,9 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-xl-4 col-lg-3">
+					<div class="col-xl-4 col-lg-3 wow fadeInRight">
 						<div class="footer-page-link-box white-text">
-							<h5 class="h5-title">Services</h5>
+							<h6 class="h6-title">Services</h6>
 							<div class="footer-page-link">
 								<?php
 									wp_nav_menu(
@@ -72,9 +72,9 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-1 col-lg-2">
+					<div class="col-xl-1 col-lg-2 wow fadeInRight">
 						<div class="footer-page-link-box white-text">
-							<h5 class="h5-title">Navigation</h5>
+							<h6 class="h6-title">Navigation</h6>
 							<div class="footer-page-link">
 								<?php
 										wp_nav_menu(

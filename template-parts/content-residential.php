@@ -19,15 +19,15 @@
     <div class="sec-wp">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-5 order-2 order-lg-1">
+                <div class="col-lg-5">
                     <div class="common-image back-img"
                         style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/residential-page-image01.jpg)">
                     </div>
                 </div>
-                <div class="col-lg-7 order-1 order-lg-1">
+                <div class="col-lg-7">
                     <div class="common-text-contant ml-auto">
                         <div class="sec-title common-sec-title">
-                            <h2 class="h2-title">Your Electrical Installation and Repair Specialist in Menifee, Ca</h2>
+                            <h3 class="h3-title">Your Electrical Installation and Repair Specialist in Menifee, Ca</h3>
                         </div>
                         <div class="common-description-text">
                             <p>RB Electrical Service is a full-service electrical service company, providing expert
@@ -54,15 +54,15 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="sec-title">
-                            <h2 class="h1-title">We specialize in</h2>
+                            <h2 class="h2-title">We specialize in</h2>
                         </div>
                     </div>
                 </div>
                 <div class="row align-items-center">
-                    <div class="col-lg-7">
+                    <div class="col-lg-7 order-2 order-lg-1">
                         <div class="common-text-contant">
                             <div class="common-sec-title">
-                                <h3 class="h3-title">Electrical Code Corrections</h3>
+                                <h4 class="h4-title">Electrical Code Corrections</h4>
                             </div>
                             <div class="common-description-text">
                                 <p>RB Electrical Service will provide a thorough electrical code inspection of your
@@ -73,7 +73,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 order-1 order-lg-1">
                         <div class="common-image back-img"
                             style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/residential-page-image02.jpg)">
                         </div>
@@ -87,15 +87,15 @@
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-5 order-2 order-lg-1">
+                    <div class="col-lg-5">
                         <div class="common-image back-img"
                             style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/residential-page-image03.jpg)">
                         </div>
                     </div>
-                    <div class="col-lg-7 order-1 order-lg-1">
+                    <div class="col-lg-7">
                         <div class="common-text-contant ml-auto">
                             <div class="common-sec-title">
-                                <h3 class="h3-title">Dedicated Circuitry </h3>
+                                <h4 class="h4-title">Dedicated Circuitry </h4>
                             </div>
                             <div class="common-description-text">
                                 <p>Having a dedicated circuit serviced by RB Electrical Service is the best way to
@@ -114,10 +114,10 @@
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-7">
+                    <div class="col-lg-7 order-2 order-lg-1">
                         <div class="common-text-contant">
                             <div class="common-sec-title">
-                                <h3 class="h3-title">Decorative Lighting</h3>
+                                <h4 class="h4-title">Decorative Lighting</h4>
                             </div>
                             <div class="common-description-text">
                                 <p>RB Electrical Service is a full-service wiring company. Our licensed technicians have
@@ -128,7 +128,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 order-1 order-lg-1">
                         <div class="common-image back-img"
                             style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/residential-page-image04.jpg)">
                         </div>
@@ -142,15 +142,15 @@
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-5 order-2 order-lg-1">
+                    <div class="col-lg-5">
                         <div class="common-image back-img"
                             style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/residential-page-image05.jpg)">
                         </div>
                     </div>
-                    <div class="col-lg-7 order-1 order-lg-1">
+                    <div class="col-lg-7">
                         <div class="common-text-contant ml-auto">
                             <div class="common-sec-title">
-                                <h3 class="h3-title">Ceiling Fans</h3>
+                                <h4 class="h4-title">Ceiling Fans</h4>
                             </div>
                             <div class="common-description-text">
                                 <p>If you’re thinking of adding a new ceiling fan or your current fan is broken and
@@ -174,7 +174,7 @@
         <div class="container">
             <div class="other-contant-list-box">
                 <div class="sec-title">
-                    <h3 class="h3-title">Among other services</h3>
+                    <h4 class="h4-title">Among other services</h4>
                 </div>
                 <ul class="other-services-list">
                     <li>

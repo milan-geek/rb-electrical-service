@@ -20,15 +20,15 @@
     <div class="sec-wp">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-5 order-2 order-lg-1">
+                <div class="col-lg-5">
                     <div class="common-image back-img"
                         style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-and-repair-page-image01.jpg)">
                     </div>
                 </div>
-                <div class="col-lg-7 order-1 order-lg-1">
+                <div class="col-lg-7">
                     <div class="common-text-contant ml-auto">
                         <div class="sec-title common-sec-title">
-                            <h2 class="h2-title">electrical service and repair</h2>
+                            <h3 class="h3-title">electrical service and repair</h3>
                         </div>
                         <div class="common-description-text">
                             <p>When it comes to electrical service and repair, there's no job too big or too small for
@@ -60,15 +60,15 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="sec-title">
-                            <h2 class="h1-title">We specialize in</h2>
+                            <h2 class="h2-title">We specialize in</h2>
                         </div>
                     </div>
                 </div>
                 <div class="row align-items-center">
-                    <div class="col-lg-7">
+                    <div class="col-lg-7 order-2 order-lg-1">
                         <div class="common-text-contant">
                             <div class="common-sec-title">
-                                <h3 class="h3-title">Electrical Panel</h3>
+                                <h4 class="h4-title">Electrical Panel</h4>
                             </div>
                             <div class="common-description-text">
                                 <p>At RB Electrical, we offer a variety of electrical panel upgrades and replacement
@@ -80,7 +80,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 order-1 order-lg-1">
                         <div class="common-image back-img"
                             style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-and-repair-page-image02.jpg)">
                         </div>
@@ -94,15 +94,15 @@
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-5 order-2 order-lg-1">
+                    <div class="col-lg-5">
                         <div class="common-image back-img"
                             style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-and-repair-page-image03.jpg)">
                         </div>
                     </div>
-                    <div class="col-lg-7 order-1 order-lg-1">
+                    <div class="col-lg-7">
                         <div class="common-text-contant ml-auto">
                             <div class="common-sec-title">
-                                <h3 class="h3-title">LED Lighting</h3>
+                                <h4 class="h4-title">LED Lighting</h4>
                             </div>
                             <div class="common-description-text">
                                 <p>LED lighting can be an excellent way to add ambiance and beauty to your home or
@@ -120,10 +120,10 @@
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-7">
+                    <div class="col-lg-7 order-2 order-lg-1">
                         <div class="common-text-contant">
                             <div class="common-sec-title">
-                                <h3 class="h3-title">Backup generator</h3>
+                                <h4 class="h4-title">Backup generator</h4>
                             </div>
                             <div class="common-description-text">
                                 <p>Our trained professionals at RB Electrical Service can provide you with a reliable
@@ -132,12 +132,9 @@
                                     are designed to provide peace of mind and security when you need it most.
                                 </p>
                             </div>
-                            <div class="common-text-btn">
-                                <a href="#" class="sec-btn blue-btn small-btn" title="more info">more info</a>
-                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 order-1 order-lg-1">
                         <div class="common-image back-img"
                             style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-sec-image03.jpg)">
                         </div>
@@ -151,15 +148,15 @@
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-5 order-2 order-lg-1">
+                    <div class="col-lg-5">
                         <div class="common-image back-img"
                             style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/services-and-repair-page-image04.jpg)">
                         </div>
                     </div>
-                    <div class="col-lg-7 order-1 order-lg-1">
+                    <div class="col-lg-7">
                         <div class="common-text-contant ml-auto">
                             <div class="common-sec-title">
-                                <h3 class="h3-title">Brands & Partners</h3>
+                                <h4 class="h4-title">Brands & Partners</h4>
                             </div>
                             <div class="common-description-text">
                                 <p>We have partnered with the most trusted brands and companies to ensure reliable

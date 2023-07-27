@@ -20,15 +20,15 @@
     <div class="sec-wp">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-5 order-2 order-lg-1">
+                <div class="col-lg-5">
                     <div class="common-image back-img"
                         style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/electric-vehicle-charger-page-image01.jpg)">
                     </div>
                 </div>
-                <div class="col-lg-7 order-1 order-lg-1">
+                <div class="col-lg-7">
                     <div class="common-text-contant ml-auto">
                         <div class="sec-title common-sec-title">
-                            <h2 class="h2-title">EV charging installation</h2>
+                            <h3 class="h3-title">EV charging installation</h3>
                         </div>
                         <div class="common-description-text">
                             <p>Whether you're looking to install an EV charging station at your home or at a commercial
@@ -56,10 +56,10 @@
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-7">
+                    <div class="col-lg-7 order-2 order-lg-1">
                         <div class="common-text-contant">
                             <div class="common-sec-title">
-                                <h3 class="h3-title">EV charging service</h3>
+                                <h4 class="h4-title">EV charging service</h4>
                             </div>
                             <div class="common-description-text">
                                 <p>Our professionals are licensed electricians with extensive training and experience,
@@ -71,7 +71,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 order-1 order-lg-1">
                         <div class="common-image back-img"
                             style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/electric-vehicle-charger-page-image02.jpg)">
                         </div>
@@ -85,15 +85,15 @@
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-5 order-2 order-lg-1">
+                    <div class="col-lg-5">
                         <div class="common-image back-img"
                             style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/electric-vehicle-charger-page-image03.jpg)">
                         </div>
                     </div>
-                    <div class="col-lg-7 order-1 order-lg-1">
+                    <div class="col-lg-7">
                         <div class="common-text-contant ml-auto">
                             <div class="common-sec-title">
-                                <h3 class="h3-title">240 Vault Outlets</h3>
+                                <h4 class="h4-title">240 Vault Outlets</h4>
                             </div>
                             <div class="common-description-text">
                                 <p>At EB Electrical, we install level 2 chargers for electric vehicles. The charger runs

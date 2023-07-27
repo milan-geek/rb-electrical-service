@@ -20,15 +20,15 @@
     <div class="sec-wp">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-5 order-2 order-lg-1">
+                <div class="col-lg-5">
                     <div class="common-image back-img"
                         style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/commercia-page-image01.jpg)">
                     </div>
                 </div>
-                <div class="col-lg-7 order-1 order-lg-1">
+                <div class="col-lg-7">
                     <div class="common-text-contant ml-auto">
                         <div class="sec-title common-sec-title">
-                            <h2 class="h2-title">commercial electrical installation</h2>
+                            <h3 class="h3-title">commercial electrical installation</h3>
                         </div>
                         <div class="common-description-text">
                             <p>With years and years of experience in commercial electrical installation and service, RB
@@ -58,7 +58,7 @@
         <div class="container">
             <div class="other-contant-list-box">
                 <div class="sec-title">
-                    <h3 class="h3-title">We specialize in</h3>
+                    <h4 class="h4-title">We specialize in</h4>
                 </div>
                 <ul class="other-services-list">
                     <li>
