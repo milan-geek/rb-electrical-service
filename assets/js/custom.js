@@ -260,9 +260,7 @@ jQuery(document).ready(function ($) {
 
     }
 
-
-});
-
+    
 /* after load JS */
 $(window).on('load', function () {
     // smooth scroll - change navigation link  JS
@@ -316,3 +314,4 @@ function gallery_slider() {
         }]
     });
 }
+});

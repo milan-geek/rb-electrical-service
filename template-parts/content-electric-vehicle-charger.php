@@ -4,7 +4,7 @@
     <div class="sec-wp">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 wow fadeInUp">
                     <div class="inner-banner-contant white-text">
                         <h1 class="h1-title">Electric vehicle charger</h1>
                     </div>
@@ -20,12 +20,12 @@
     <div class="sec-wp">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-5">
+                <div class="col-lg-5 wow fadeInLeft">
                     <div class="common-image back-img"
                         style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/electric-vehicle-charger-page-image01.jpg)">
                     </div>
                 </div>
-                <div class="col-lg-7">
+                <div class="col-lg-7 wow fadeInRight">
                     <div class="common-text-contant ml-auto">
                         <div class="sec-title common-sec-title">
                             <h3 class="h3-title">EV charging installation</h3>
@@ -56,7 +56,7 @@
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-7 order-2 order-lg-1">
+                    <div class="col-lg-7 order-2 order-lg-1 wow fadeInLeft">
                         <div class="common-text-contant">
                             <div class="common-sec-title">
                                 <h4 class="h4-title">EV charging service</h4>
@@ -71,7 +71,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-5 order-1 order-lg-1">
+                    <div class="col-lg-5 order-1 order-lg-1 wow fadeInRight">
                         <div class="common-image back-img"
                             style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/electric-vehicle-charger-page-image02.jpg)">
                         </div>
@@ -85,12 +85,12 @@
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 wow fadeInLeft">
                         <div class="common-image back-img"
                             style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/electric-vehicle-charger-page-image03.jpg)">
                         </div>
                     </div>
-                    <div class="col-lg-7">
+                    <div class="col-lg-7 wow fadeInRight">
                         <div class="common-text-contant ml-auto">
                             <div class="common-sec-title">
                                 <h4 class="h4-title">240 Vault Outlets</h4>

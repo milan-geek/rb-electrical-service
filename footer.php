@@ -29,15 +29,15 @@
 						</div>
 						<div class="footer-social-box">
 							<ul class="social-info">
-								<li><a href="#" class="social-icon" title="Follow Now"><i
+								<li><a href="https://www.facebook.com/RBElectricalService/" class="social-icon" title="Follow Now" target="_blank"><i
 											class="fa-brands fa-square-facebook"></i></a></li>
-								<li><a href="#" class="social-icon" title="Follow Now"><i
+								<li><a href="https://www.instagram.com/rb.electrical.service/" class="social-icon" title="Follow Now" target="_blank"><i
 											class="fa-brands fa-instagram"></i></a></li>
 							</ul>
 							
 							<ul class="contact-info">
 								<li>
-									<a href="#" title="27393 Finale Ct., Menifee, CA 92584">
+									<a href="https://goo.gl/maps/A4xss61vLGEfSVVD6" title="27393 Finale Ct., Menifee, CA 92584" target="_blank">
 										<span class="contact-icon"><i class="fa-solid fa-location-dot"></i></span>
 										<span class="contact-icon-text-info">27393 Finale Ct., Menifee, CA 92584</span>
 									</a>

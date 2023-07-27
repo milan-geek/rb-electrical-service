@@ -3,7 +3,7 @@
     <div class="sec-wp">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 wow fadeInUp">
                     <div class="inner-banner-contant white-text">
                         <h1 class="h1-title">Residential</h1>
                     </div>
@@ -19,12 +19,12 @@
     <div class="sec-wp">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-5">
+                <div class="col-lg-5 wow fadeInLeft">
                     <div class="common-image back-img"
                         style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/residential-page-image01.jpg)">
                     </div>
                 </div>
-                <div class="col-lg-7">
+                <div class="col-lg-7 wow fadeInRight">
                     <div class="common-text-contant ml-auto">
                         <div class="sec-title common-sec-title">
                             <h3 class="h3-title">Your Electrical Installation and Repair Specialist in Menifee, Ca</h3>
@@ -52,14 +52,14 @@
         <div class="sec-wp">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-lg-12 wow fadeInUp">
                         <div class="sec-title">
                             <h2 class="h2-title">We specialize in</h2>
                         </div>
                     </div>
                 </div>
                 <div class="row align-items-center">
-                    <div class="col-lg-7 order-2 order-lg-1">
+                    <div class="col-lg-7 order-2 order-lg-1 wow fadeInLeft">
                         <div class="common-text-contant">
                             <div class="common-sec-title">
                                 <h4 class="h4-title">Electrical Code Corrections</h4>
@@ -73,7 +73,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-5 order-1 order-lg-1">
+                    <div class="col-lg-5 order-1 order-lg-1 wow fadeInRight">
                         <div class="common-image back-img"
                             style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/residential-page-image02.jpg)">
                         </div>
@@ -87,12 +87,12 @@
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 wow fadeInLeft">
                         <div class="common-image back-img"
                             style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/residential-page-image03.jpg)">
                         </div>
                     </div>
-                    <div class="col-lg-7">
+                    <div class="col-lg-7 wow fadeInRight">
                         <div class="common-text-contant ml-auto">
                             <div class="common-sec-title">
                                 <h4 class="h4-title">Dedicated Circuitry </h4>
@@ -114,7 +114,7 @@
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-7 order-2 order-lg-1">
+                    <div class="col-lg-7 order-2 order-lg-1 wow fadeInLeft">
                         <div class="common-text-contant">
                             <div class="common-sec-title">
                                 <h4 class="h4-title">Decorative Lighting</h4>
@@ -128,7 +128,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-5 order-1 order-lg-1">
+                    <div class="col-lg-5 order-1 order-lg-1 wow fadeInRight">
                         <div class="common-image back-img"
                             style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/residential-page-image04.jpg)">
                         </div>
@@ -142,12 +142,12 @@
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 wow fadeInLeft">
                         <div class="common-image back-img"
                             style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/residential-page-image05.jpg)">
                         </div>
                     </div>
-                    <div class="col-lg-7">
+                    <div class="col-lg-7 wow fadeInRight">
                         <div class="common-text-contant ml-auto">
                             <div class="common-sec-title">
                                 <h4 class="h4-title">Ceiling Fans</h4>
@@ -173,10 +173,10 @@
     <div class="sec-wp">
         <div class="container">
             <div class="other-contant-list-box">
-                <div class="sec-title">
+                <div class="sec-title wow fadeInUp">
                     <h4 class="h4-title">Among other services</h4>
                 </div>
-                <ul class="other-services-list">
+                <ul class="other-services-list wow fadeInUp">
                     <li>
                         <span class="other-services-list-icon"></span>
                         <span class="other-services-list-icon-text">New Outlets Installation</span>

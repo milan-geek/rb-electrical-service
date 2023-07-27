@@ -2639,8 +2639,8 @@ button.close:hover {
 }
 
 .categorey-icon {
-    width: 170px;
-    height: 98px;
+    width: 100%;
+    height: 100%;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -3782,6 +3782,161 @@ a.prev.page-numbers {
     .container {
         max-width: 1400px;
     }
+
+    .main-navigation ul.nav-menu > li > a{
+        font-size: 18px;
+    }
+
+    .main-navigation ul ul{
+        width: 250px;
+    }
+
+    .main-navigation ul ul a {
+        width: 250px;
+    }
+
+    .main-navigation ul ul li a{
+        font-size: 18px;
+    }
+
+    .header-btn .sec-btn {
+        width: 224px;
+        height: 58px;
+    }
+
+    .h1-title {
+        font-size: 90px;
+        line-height: 1.05;
+    }
+
+    .h2-title{
+        font-size: 90px;
+        line-height: 1.05;
+    }
+
+    .h3-title{
+        font-size: 56px;
+        line-height: 60px;
+    }
+
+    .h4-title {
+        font-size: 44px;
+        line-height: 52px;
+    }
+
+    .h6-title {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 38px;
+    }
+    body {
+        font-size: 20px;
+        line-height: 38px;
+    }
+
+    .sec-btn, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+        width: 224px;
+        height: 58px;
+        font-size: 18px;
+    }
+
+    .form-input, .input-text, .select2-container--default .select2-selection--single .select2-selection__rendered, select{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .sec-btn.white-btn {
+        width: 264px;
+    }
+
+    .sec-btn.blue-btn.small-btn {
+        width: 180px;
+    }
+
+    .common-image {
+        height: 630px;
+    }
+
+    .common-text-contant {
+        max-width: 700px;
+    }
+
+    .other-services-list{
+        width: 100%;
+    }
+
+    .main-banner::before {
+        width: 1700px;
+    }
+
+    .about-sec .common-image {
+        height: 630px;
+    }
+
+    .reviews-slide{
+        max-width: 1137px;
+    }
+
+    .reviews-slide-bottom-text h6 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .contact-info li a{
+        gap: 15px;
+    }
+
+    .contact-info li a .contact-icon {
+        font-size: 18px;
+    }
+
+    .footer-page-link-box .footer-page-link ul li a{
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .footer-bottom-link li {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .footer-bottom-other-link p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .top-fixed-btn{
+        right: -123px;
+    }
+
+    .top-fixed-btn .sec-btn {
+        width: 172px;
+        height: 48px;
+    }
+
+    .top-fixed-btn .sec-btn.contact-us-btn {
+        height: 48px;
+    }
+    
+    /*===============Commercial [Page] CSS Start ===============*/
+    .commercial-we-specialize-sec .other-services-list {
+        width: 100%;
+    }
+    /*===============Commercial [Page] CSS End ===============*/
+
+    /*===============Contact [Page] CSS Start ===============*/
+    .contact-page-left-box {
+        max-width: 670px;
+    }
+    /*===============Contact [Page] CSS End ===============*/
+
+
+    
+    
 }
 
 @media screen and (max-width: 1499px) {
@@ -3819,10 +3974,6 @@ a.prev.page-numbers {
 
     .reviews-slide .reviews-contant-box {
         padding: 66px 70px 56px 70px;
-    }
-
-    .categorey-icon {
-        width: 150px;
     }
 
     .other-services-list {
@@ -4189,6 +4340,10 @@ a.prev.page-numbers {
         transform: translate(-50%, 0%);
     }
 
+    .top-fixed-btn .sec-btn{
+        width: 121px;
+    }
+
     .other-contant-list-box .sec-title {
         margin-bottom: 30px;
     }
@@ -4543,10 +4698,6 @@ a.prev.page-numbers {
 
     .residential-services-sec .sec-title {
         margin-bottom: 50px;
-    }
-
-    .categorey-icon {
-        width: 130px;
     }
 
     /*===============Residential Sevices [Page] CSS Start ===============*/
@@ -5048,10 +5199,6 @@ a.prev.page-numbers {
 
     .reviews-testimonial-slider .slick-arrow {
         right: 60px;
-    }
-
-    .categorey-icon {
-        width: 110px;
     }
 
     .footer-top-box {

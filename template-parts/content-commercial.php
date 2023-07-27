@@ -4,7 +4,7 @@
     <div class="sec-wp">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 wow fadeInUp">
                     <div class="inner-banner-contant white-text">
                         <h1 class="h1-title">Commercial</h1>
                     </div>
@@ -20,12 +20,12 @@
     <div class="sec-wp">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-5">
+                <div class="col-lg-5 wow fadeInLeft">
                     <div class="common-image back-img"
                         style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/commercia-page-image01.jpg)">
                     </div>
                 </div>
-                <div class="col-lg-7">
+                <div class="col-lg-7 wow fadeInRight">
                     <div class="common-text-contant ml-auto">
                         <div class="sec-title common-sec-title">
                             <h3 class="h3-title">commercial electrical installation</h3>
@@ -57,10 +57,10 @@
     <div class="sec-wp">
         <div class="container">
             <div class="other-contant-list-box">
-                <div class="sec-title">
+                <div class="sec-title wow fadeInUp">
                     <h4 class="h4-title">We specialize in</h4>
                 </div>
-                <ul class="other-services-list">
+                <ul class="other-services-list wow fadeInUp">
                     <li>
                         <span class="other-services-list-icon"></span>
                         <span class="other-services-list-icon-text">Tenant Electrical Improvements</span>

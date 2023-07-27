@@ -4,7 +4,7 @@
     <div class="sec-wp">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 wow fadeInUp">
                     <div class="inner-banner-contant white-text">
                         <h1 class="h1-title">Contact us</h1>
                     </div>
@@ -20,7 +20,7 @@
     <div class="sec-wp">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-7">
+                <div class="col-lg-7 wow fadeInLeft">
                     <div class="contact-page-left-box">
                         <div class="contact-page-text-info">
                             <p>RB Electrical Service is a top-rated electrical contractor in the Menifee, CA area
@@ -34,14 +34,14 @@
                             </a>
                         </div>
                         <ul class="social-info">
-                            <li><a href="#" class="social-icon" title="Follow Now"><i
+                            <li><a href="https://www.facebook.com/RBElectricalService/" class="social-icon" title="Follow Now" target="_blank"><i
                                         class="fa-brands fa-square-facebook"></i></a></li>
-                            <li><a href="#" class="social-icon" title="Follow Now"><i
+                            <li><a href="https://www.instagram.com/rb.electrical.service/" class="social-icon" title="Follow Now" target="_blank"><i
                                         class="fa-brands fa-instagram"></i></a></li>
                         </ul>
                         <ul class="contact-info">
                             <li>
-                                <a href="#" title="27393 Finale Ct., Menifee, CA 92584">
+                                <a href="https://goo.gl/maps/A4xss61vLGEfSVVD6" title="27393 Finale Ct., Menifee, CA 92584" target="_blank">
                                     <span class="contact-icon"><i class="fa-solid fa-location-dot"></i></span>
                                     <span class="contact-icon-text-info">27393 Finale Ct., Menifee, CA 92584</span>
                                 </a>
@@ -55,7 +55,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-5">
+                <div class="col-lg-5 wow fadeInRight">
                     <div class="contact-page-right-box">
                         <div class="sec-title">
                             <h4 class="h4-title">Contact Us</h4>
