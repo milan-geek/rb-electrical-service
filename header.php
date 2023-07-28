@@ -17,6 +17,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
+	<link rel="preload" href="<?php echo home_url();?>/wp-content/themes/rb-electrical-service/assets/fonts/Oswald-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="<?php echo home_url();?>/wp-content/themes/rb-electrical-service/assets/fonts/Oswald-Bold.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="<?php echo home_url();?>/wp-content/themes/rb-electrical-service/assets/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="<?php echo home_url();?>/wp-content/themes/rb-electrical-service/assets/fonts/Inter-Light.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="<?php echo home_url();?>/wp-content/themes/rb-electrical-service/assets/fonts/Inter-Black.woff2" as="font" type="font/woff2" crossorigin>
+
 	<?php wp_head(); ?>
 </head>
 
