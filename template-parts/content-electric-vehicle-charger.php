@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="col-lg-7 wow fadeInRight">
-                    <div class="common-text-contant ml-auto">
+                    <div class="common-text-contant">
                         <div class="sec-title common-sec-title">
                             <h3 class="h3-title">EV charging installation</h3>
                         </div>
@@ -52,7 +52,7 @@
 
 <section class="main-electric-vehicle-charger-sec">
 
-    <section class="ev-charging-sec clip-path">
+    <section class="services-sec odd ev-charging-sec clip-path">
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
@@ -81,7 +81,7 @@
         </div>
     </section>
 
-    <section class="vault-outlets-sec">
+    <section class="services-sec even vault-outlets-sec">
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
@@ -91,7 +91,7 @@
                         </div>
                     </div>
                     <div class="col-lg-7 wow fadeInRight">
-                        <div class="common-text-contant ml-auto">
+                        <div class="common-text-contant">
                             <div class="common-sec-title">
                                 <h4 class="h4-title">240 Vault Outlets</h4>
                             </div>

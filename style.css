@@ -612,10 +612,6 @@ textarea {
     left: 100%;
 }
 
-.main-navigation ul ul a {
-    width: 200px;
-}
-
 .main-navigation ul li:hover > ul,
 .main-navigation ul li.focus > ul {
     left: auto;
@@ -625,12 +621,6 @@ textarea {
     float: none;
     display: flex;
     align-items: center;
-    height: 100%;
-    position: relative;
-}
-
-.main-navigation a {
-    transition: 0.3s;
     position: relative;
 }
 
@@ -968,6 +958,7 @@ div.wpcf7-mail-sent-ok {
 
 span.wpcf7-not-valid-tip {
     position: relative;
+    top: -4px;
     font-size: 14px;
     line-height: 24px;
     color: var(--red-color);
@@ -1383,8 +1374,9 @@ h4,
 h5,
 h6 {
     font-weight: 600;
-    color: var(--dark-color);
+    color: var(--primary-color);
     font-family: var(--title-font);
+    text-transform: uppercase;
 }
 
 p a,
@@ -1402,44 +1394,32 @@ a:hover {
     font-size: 78px;
     line-height: 80px;
     font-weight: 700;
-    color: var(--primary-color);
-    text-transform: uppercase;
 }
 
 .h2-title {
     font-size: 78px;
     line-height: 80px;
     font-weight: 700;
-    color: var(--primary-color);
-    text-transform: uppercase;
 }
 
 .h3-title {
     font-size: 50px;
     line-height: 60px;
-    color: var(--primary-color);
-    text-transform: uppercase;
 }
 
 .h4-title {
     font-size: 38px;
     line-height: 46px;
-    color: var(--primary-color);
-    text-transform: uppercase;
 }
 
 .h5-title {
     font-size: 26px;
     line-height: 32px;
-    color: var(--primary-color);
-    text-transform: uppercase;
 }
 
 .h6-title {
     font-size: 22px;
     line-height: 32px;
-    color: var(--primary-color);
-    text-transform: uppercase;
 }
 
 .grecaptcha-badge {
@@ -1568,9 +1548,10 @@ a:hover {
     left: 0 !important;
     float: none;
     width: 200px;
-    background: var(--white-color);
-    box-shadow: 0 0 10px rgb(60 140 244 / 15%);
+    background-color: var(--white-color);
+    box-shadow: 0 0 10px rgb(0, 0, 0, 1%);
     text-align: left;
+    border-radius: 6px;
     display: none;
     opacity: 0;
 }
@@ -1597,7 +1578,7 @@ a:hover {
 .main-navigation ul ul li {
     display: block;
     margin: 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgb(255 255 255/19%);
 }
 
 .main-navigation ul ul li:last-child {
@@ -1623,8 +1604,8 @@ a:hover {
 .woocommerce a.button,
 .woocommerce button.button,
 .woocommerce input.button {
-    width: 210px;
-    height: 54px;
+    min-width: 210px;
+    min-height: 54px;
     background-color: var(--green-color);
     display: inline-flex;
     justify-content: center;
@@ -1665,18 +1646,37 @@ a:hover {
 }
 
 .sec-btn.blue-btn:hover {
-    border: 1px solid var(--primary-color);
-    background-image: none;
-    color: var(--primary-color);
+    background: linear-gradient(
+        180deg,
+        rgb(0, 72, 152) 100%,
+        rgba(4, 43, 96, 1) 0
+    );
+}
+
+.sec-btn.md-btn {
+    min-width: 160px;
+    min-height: 42px;
+    border-radius: 4px;
+    gap: 5px;
 }
 
 .sec-btn.blue-btn.small-btn {
-    width: 150px;
+    min-width: 150px;
+}
+
+.sec-btn.contact-btn {
+    min-width: 121px;
+    min-height: 42px;
+    background-color: #02984b;
+}
+
+.sec-btn.contact-btn:hover {
+    background-color: var(--dark-color);
 }
 
 .sec-btn.white-btn {
-    width: 244px;
-    height: 42px;
+    min-width: 244px;
+    min-height: 42px;
 }
 
 .sec-btn.white-btn:hover {
@@ -1731,6 +1731,10 @@ a:hover {
     padding-right: 60px;
 }
 
+.services-sec.even .common-text-contant{
+    margin-left: auto;
+}
+
 .common-image {
     width: 100%;
     height: 552px;
@@ -1738,7 +1742,8 @@ a:hover {
     border-radius: 6px;
 }
 
-.common-image::before {
+.common-image::before,
+.common-image::after {
     content: "";
     position: absolute;
     bottom: -10px;
@@ -1754,25 +1759,13 @@ a:hover {
 }
 
 .common-image::after {
-    content: "";
-    position: absolute;
     bottom: -20px;
-    left: 50%;
-    transform: translateX(-50%);
     width: calc(100% - 80px);
-    height: 50px;
-    background-color: var(--green-color);
     opacity: 0.3;
-    border-radius: 6px;
-    z-index: -1;
 }
 
 .common-text-contant {
     max-width: 570px;
-}
-
-.common-text-contant.ml-auto {
-    margin-left: auto;
 }
 
 .common-text-contant .sec-title.common-sec-title {
@@ -1801,25 +1794,28 @@ a:hover {
 
 .clip-path::before {
     content: "";
-    width: 100%;
+    width: 1920px;
     height: 100%;
     position: absolute;
     top: 0;
-    left: 0;
-    background-color: #f6f8fa;
-    clip-path: polygon(100% 0, 100% 65%, 70% 100%, 0 77%, 0 14%);
+    left: 50%;
+    transform: translate(-50%);
+    background-color: var(--sec-clip-path-color);
+    --clip-path: polygon(100% 0,100% calc(100% - 348px),calc(100% - 580px) 100%,0 calc(100% - 250px),0 153px);
+    clip-path: var(--clip-path);
+    -webkit-clip-path: var(--clip-path);
 }
 
 .clip-path.clip-path-02::before {
-    clip-path: polygon(100% 43%, 100% 100%, 0 100%, 0 35%, 39% 0);
+    --clip-path: polygon(755px 0,100% 380px,100% 100%,0 100%,0% 300px);
 }
 
 .clip-path.clip-path-03::before {
-    clip-path: polygon(100% 0, 100% 69%, 72% 100%, 0 69%, 0 0);
+    --clip-path: polygon(100% 0,100% calc(100% - 188px),calc(100% - 538px) 100%,0 calc(100% - 188px),0 0);
 }
 
 .clip-path.clip-path-04::before {
-    clip-path: polygon(100% 23%, 100% 86%, 0 100%, 0 23%, 39% 0);
+    --clip-path: polygon(755px 0,100% 380px,100% calc(100% - 130px),0 100%,0% 300px);
 }
 
 .other-contant-list-box .sec-title {
@@ -1857,7 +1853,7 @@ a:hover {
 }
 
 .social-info .social-icon {
-    font-size: 37px;
+    font-size: 34px;
     color: var(--green-color);
 }
 
@@ -2296,8 +2292,7 @@ button.close:hover {
     width: 100%;
 }
 
-.site-header > .container,
-.site-header .container > .row {
+.site-header > .container{
     height: 100%;
 }
 
@@ -2323,7 +2318,6 @@ button.close:hover {
     text-transform: uppercase;
     display: flex;
     align-items: center;
-    height: 100%;
 }
 
 .main-navigation ul.nav-menu > li.current-menu-item > a,
@@ -2338,13 +2332,6 @@ button.close:hover {
     a::after,
 .main-navigation ul.nav-menu > li.menu-item-has-children:hover > a:after {
     color: var(--green-color);
-}
-
-.header-btn .sec-btn {
-    width: 160px;
-    height: 42px;
-    border-radius: 4px;
-    gap: 5px;
 }
 
 .header-mobile-menu {
@@ -2365,9 +2352,15 @@ button.close:hover {
 /*==========Main Bnner CSS Start==========*/
 
 .main-banner {
-    clip-path: polygon(0 0, 100% 0, 100% 75%, 100% 75%, 30% 100%, 0 75%);
     padding: 226px 0 233px 0;
+    width: 1920px;
     position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    --clip-path: polygon(100% 0,100% calc(100% - 255px),580px 100%,0 calc(100% - 255px),0 0);
+    clip-path: var(--clip-path);
+    -webkit-clip-path: var(--clip-path);
 }
 
 .main-banner::before {
@@ -2377,39 +2370,25 @@ button.close:hover {
     position: absolute;
     top: 0;
     left: 0;
-    background: linear-gradient(
-        90deg,
-        rgba(213, 212, 208, 1) 0%,
-        rgba(255, 255, 255, 0.8) 70%,
-        rgba(246, 248, 250, 0) 100%
-    );
+    background: linear-gradient( 90deg, rgba(213, 212, 208, 1) 0%, rgba(255, 255, 255, 0.8) 70%, rgba(246, 248, 250, 0) 100% );
 }
 
 .main-banner-contant .h1-title span {
     display: block;
 }
 
-.main-banner-discription-text {
-    margin-top: 33px;
-    margin-bottom: 48px;
-}
-
-.main-banner-contant .main-banner-discription-text p {
+.main-banner-contant p {
     font-size: 28px;
     line-height: 42px;
-}
-
-.main-banner-contant .main-banner-discription-text p span {
-    display: block;
-}
-
-.main-banner-contant .main-banner-discription-text p:last-of-type {
-    margin-bottom: 0px;
+    margin-top: 33px;
+    margin-bottom: 48px;
+    max-width: 351px;
 }
 
 .main-banner-btn {
     display: inline-flex;
     gap: 14px;
+    flex-wrap: wrap;
 }
 
 .main-banner-btn .sec-btn {
@@ -2431,6 +2410,10 @@ button.close:hover {
 
 .about-sec .common-image.back-img {
     background-position: top;
+}
+
+.about-sec .common-text-contant{
+    margin-left: auto;
 }
 
 .we-are-ready-to-take {
@@ -2514,7 +2497,14 @@ button.close:hover {
 .reviews-sec {
     padding: 221px 0 132px 0;
     background-color: var(--green-color);
-    clip-path: polygon(50% 15%, 100% 0, 100% 100%, 0 100%, 0 0);
+    width: 1920px;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    --clip-path: polygon(50% 155px,100% 0,100% 100%,0 100%,0 0);
+    clip-path: var(--clip-path);
+    -webkit-clip-path: var(--clip-path);
 }
 
 .reviews-sec .reviews-sec-contant {
@@ -2536,12 +2526,6 @@ button.close:hover {
     height: 100%;
 }
 
-.reviews-slide {
-    width: 100%;
-    margin: auto;
-    max-width: 970px;
-}
-
 .reviews-slide .reviews-contant-box {
     padding: 66px 100px 56px 100px;
     text-align: center;
@@ -2551,23 +2535,8 @@ button.close:hover {
 }
 
 .reviews-slide-text-info {
-    height: 280px;
-    overflow-y: auto;
-    padding-right: 15px;
-}
-
-.reviews-slide-text-info::-webkit-scrollbar {
-    width: 4px;
-    background-color: rgba(163, 163, 163, 0.5);
-}
-
-.reviews-slide-text-info::-webkit-scrollbar-thumb {
-    border-radius: 4px;
-    background-color: var(--primary-color);
-}
-
-.reviews-slide-text-info::-webkit-scrollbar-track {
-    border-radius: 4px;
+    height: 260px;
+    padding-right: 10px;
 }
 
 .reviews-slide-text-info p {
@@ -2595,7 +2564,7 @@ button.close:hover {
 
 .reviews-testimonial-slider .slick-arrow {
     top: 50%;
-    left: 43px;
+    left: -57px;
     background-color: transparent;
     border: 1px solid rgb(255, 255, 255, 50%);
 }
@@ -2607,7 +2576,7 @@ button.close:hover {
 
 .reviews-testimonial-slider .slide-arrow.next-arrow.slick-arrow {
     left: auto;
-    right: 43px;
+    right: -57px;
     background-color: var(--white-color);
     color: var(--black-color);
 }
@@ -2675,9 +2644,16 @@ button.close:hover {
 /*==========Footer CSS Start==========*/
 
 .footer-top-box {
+    position: relative;
+    width: 1920px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0);
     padding: 273px 0 70px 0;
     background-color: var(--common-color);
-    clip-path: polygon(70% 0, 100% 29%, 100% 100%, 0 100%, 0 30%);
+    --clip-path: polygon(calc(100% - 580px) 0,100% 255px,100% 100%,0 100%,0% 255px);
+    clip-path: var(--clip-path);
+    -webkit-clip-path: var(--clip-path);
 }
 
 .footer-top-box.back-img {
@@ -2713,8 +2689,8 @@ button.close:hover {
 }
 
 .footer-page-link-box {
-    margin-left: -30px;
     margin-top: 100px;
+    margin-left: 170px;
 }
 
 .footer-page-link-box .h6-title {
@@ -2844,17 +2820,13 @@ button.close:hover {
     gap: 0px;
 }
 
-.top-fixed-btn .sec-btn {
-    width: 154px;
-    height: 42px;
+.top-fixed-btn .sec-btn.md-btn {
+    min-width: 154px;
     border-radius: 4px 0 0 0;
     gap: 5px;
 }
 
-.top-fixed-btn .sec-btn.contact-us-btn {
-    width: 121px;
-    height: 42px;
-    background-color: #02984b;
+.top-fixed-btn .sec-btn.contact-btn {
     border-radius: 0 4px 0 0;
 }
 
@@ -2869,10 +2841,16 @@ button.close:hover {
 .inner-banner {
     padding: 166px 0 100px 0;
     position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    min-width: 1920px;
+    width: 100%;
     min-height: 363px;
-    overflow: hidden;
     background-color: var(--green-color);
-    clip-path: polygon(0 0, 100% 0, 100% 73%, 0 100%);
+    --clip-path: polygon(0 0,100% 0,100% calc(100% - 100px),0% 100%);
+    clip-path: var(--clip-path);
+    -webkit-clip-path: var(--clip-path);
 }
 
 .inner-banner-contant .h1-title {
@@ -2887,6 +2865,10 @@ button.close:hover {
 
 .resident-first-sec {
     padding: 100px 0 87px 0;
+}
+
+.resident-first-sec .common-text-contant{
+    margin-left: auto;
 }
 
 /*========== Residential First Section CSS End ==========*/
@@ -2938,6 +2920,10 @@ button.close:hover {
     height: 742px;
 }
 
+.services-and-repair-first-sec .common-text-contant{
+    margin-left: auto;
+}
+
 /*==========Service and Repair First Section CSS End ==========*/
 
 /*==========Service and Repair Main Section CSS Start ==========*/
@@ -2974,6 +2960,10 @@ button.close:hover {
 
 .backup-generator-first-sec {
     padding: 100px 0 25px 0;
+}
+
+.backup-generator-first-sec .common-text-contant{
+    margin-left: auto;
 }
 
 /*==========Backup Generator First Section CSS End ==========*/
@@ -3049,6 +3039,10 @@ button.close:hover {
     padding: 100px 0 25px 0;
 }
 
+.electric-vehicle-charger-first-sec .common-text-contant{
+    margin-left: auto;
+}
+
 /*==========Electric vehicle charger First Section CSS End ==========*/
 
 /*==========Electric vehicle charger Main Section CSS Start ==========*/
@@ -3076,6 +3070,10 @@ button.close:hover {
 
 .commercial-first-sec .common-image {
     height: 705px;
+}
+
+.commercial-first-sec .common-text-contant{
+    margin-left: auto;
 }
 
 /*==========Commercial First Section CSS End ==========*/
@@ -3748,6 +3746,12 @@ a.prev.page-numbers {
 
 /*==========Responsive Start==========*/
 
+@media screen and (min-width: 992px){
+    .site-header > .container, .site-header > .container .row{
+        height: 100%;
+    }
+}
+
 @media screen and (min-width: 1200px) {
     .container {
         max-width: 1100px;
@@ -3760,30 +3764,27 @@ a.prev.page-numbers {
     }
 }
 
+@media (min-width: 1921px) {
+    .main-banner,.clip-path::before,.reviews-sec,.footer-top-box{
+        width: 100%;
+    }
+}
+
 @media (min-width: 2100px) {
     .container {
         max-width: 1400px;
     }
 
-    .main-navigation ul.nav-menu > li > a{
+    .main-navigation ul.nav-menu > li > a {
         font-size: 18px;
     }
 
-    .main-navigation ul ul{
+    .main-navigation ul ul {
         width: 250px;
     }
 
-    .main-navigation ul ul a {
-        width: 250px;
-    }
-
-    .main-navigation ul ul li a{
+    .main-navigation ul ul li a {
         font-size: 18px;
-    }
-
-    .header-btn .sec-btn {
-        width: 224px;
-        height: 58px;
     }
 
     .h1-title {
@@ -3791,12 +3792,12 @@ a.prev.page-numbers {
         line-height: 1.05;
     }
 
-    .h2-title{
+    .h2-title {
         font-size: 90px;
         line-height: 1.05;
     }
 
-    .h3-title{
+    .h3-title {
         font-size: 56px;
         line-height: 60px;
     }
@@ -3820,23 +3821,29 @@ a.prev.page-numbers {
         line-height: 38px;
     }
 
-    .sec-btn, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
-        width: 224px;
-        height: 58px;
+    .sec-btn,
+    .woocommerce #respond input#submit,
+    .woocommerce a.button,
+    .woocommerce button.button,
+    .woocommerce input.button,.sec-btn.md-btn,.sec-btn.blue-btn.small-btn {
+        min-width: 224px;
+        min-height: 58px;
         font-size: 18px;
     }
 
-    .form-input, .input-text, .select2-container--default .select2-selection--single .select2-selection__rendered, select{
+    .form-input,
+    .input-text,
+    .select2-container--default
+        .select2-selection--single
+        .select2-selection__rendered,
+    select {
         font-size: 18px;
         line-height: 24px;
     }
 
     .sec-btn.white-btn {
-        width: 264px;
-    }
-
-    .sec-btn.blue-btn.small-btn {
-        width: 180px;
+        min-width: 264px;
+        min-height: 48px;
     }
 
     .common-image {
@@ -3847,7 +3854,7 @@ a.prev.page-numbers {
         max-width: 700px;
     }
 
-    .other-services-list{
+    .other-services-list {
         width: 100%;
     }
 
@@ -3859,16 +3866,12 @@ a.prev.page-numbers {
         height: 630px;
     }
 
-    .reviews-slide{
-        max-width: 1137px;
-    }
-
     .reviews-slide-bottom-text h6 {
         font-size: 22px;
         line-height: 26px;
     }
 
-    .contact-info li a{
+    .contact-info li a {
         gap: 15px;
     }
 
@@ -3876,7 +3879,7 @@ a.prev.page-numbers {
         font-size: 18px;
     }
 
-    .footer-page-link-box .footer-page-link ul li a{
+    .footer-page-link-box .footer-page-link ul li a {
         font-size: 20px;
         line-height: 26px;
     }
@@ -3895,15 +3898,15 @@ a.prev.page-numbers {
         right: -123px;
     }
 
-    .top-fixed-btn .sec-btn {
-        width: 172px;
-        height: 48px;
+    .top-fixed-btn .sec-btn.md-btn{
+        min-height: 48px;
+        min-width: 173px;
     }
 
-    .top-fixed-btn .sec-btn.contact-us-btn {
-        height: 48px;
+    .top-fixed-btn .sec-btn.contact-btn{
+        min-height: 48px;
     }
-    
+
     /*===============Commercial [Page] CSS Start ===============*/
     .commercial-we-specialize-sec .other-services-list {
         width: 100%;
@@ -3915,10 +3918,6 @@ a.prev.page-numbers {
         max-width: 670px;
     }
     /*===============Contact [Page] CSS End ===============*/
-
-
-    
-    
 }
 
 @media screen and (max-width: 1499px) {
@@ -3934,26 +3933,6 @@ a.prev.page-numbers {
         gap: 40px;
     }
 
-    .clip-path::before {
-        clip-path: polygon(100% 0, 100% 79%, 73% 100%, 0 77%, 0 14%);
-    }
-
-    .clip-path.clip-path-02::before {
-        clip-path: polygon(100% 25%, 100% 100%, 0 100%, 0 25%, 39% 0);
-    }
-
-    .clip-path.clip-path-04::before {
-        clip-path: polygon(100% 23%, 100% 86%, 0 100%, 0 23%, 39% 0);
-    }
-
-    .main-banner {
-        clip-path: polygon(0 0, 100% 0, 100% 75%, 100% 75%, 26% 100%, 0 75%);
-    }
-
-    .reviews-slide {
-        max-width: 870px;
-    }
-
     .reviews-slide .reviews-contant-box {
         padding: 66px 70px 56px 70px;
     }
@@ -3965,6 +3944,10 @@ a.prev.page-numbers {
 
     .commercial-we-specialize-sec .other-services-list {
         width: 100%;
+    }
+
+    .footer-page-link-box{
+        margin-left: 100px;
     }
 }
 
@@ -3981,32 +3964,8 @@ a.prev.page-numbers {
         width: 270px;
     }
 
-    .main-banner {
-        clip-path: polygon(0 0, 100% 0, 100% 75%, 100% 85%, 26% 100%, 0 85%);
-    }
-
-    .clip-path::before {
-        clip-path: polygon(100% 0, 100% 89%, 73% 100%, 0 89%, 0 14%);
-    }
-
-    .clip-path.clip-path-02::before {
-        clip-path: polygon(100% 15%, 100% 100%, 0 100%, 0 15%, 39% 0);
-    }
-
-    .clip-path.clip-path-03::before {
-        clip-path: polygon(100% 0, 100% 83%, 72% 100%, 0 83%, 0 0);
-    }
-
-    .clip-path.clip-path-04::before {
-        clip-path: polygon(100% 15%, 100% 89%, 0 100%, 0 15%, 39% 0);
-    }
-
     .common-text-contant {
         max-width: 500px;
-    }
-
-    .reviews-slide {
-        max-width: 730px;
     }
 
     .reviews-slide .reviews-contant-box {
@@ -4018,13 +3977,12 @@ a.prev.page-numbers {
         padding-right: 30px;
     }
 
-    .footer-top-box {
-        padding: 190px 0 70px 0;
-        clip-path: polygon(70% 0, 100% 20%, 100% 100%, 0 100%, 0 20%);
-    }
-
     .footer-logo-info-box .footer-site-logo {
         width: 280px;
+    }
+
+    .footer-page-link-box {
+        margin-left: 50px;
     }
 }
 
@@ -4138,16 +4096,16 @@ a.prev.page-numbers {
         top: 80px;
         left: 100vw;
         width: 100vw;
-        height: 100vh;
-        background: var(--dark-color);
-        padding: 16.3vh 30px 30px 30px;
+        height: calc(100vh - 80px);
+        background: var(--common-color);
+        padding: 80px 30px 30px;
         overflow: auto;
         opacity: 0;
         scrollbar-color: transparent transparent;
         transition: 0.5s;
         flex-direction: column;
         align-items: start;
-        gap: 40;
+        gap: 40px;
         z-index: 101;
     }
 
@@ -4269,23 +4227,34 @@ a.prev.page-numbers {
         line-height: 50px;
     }
 
+    .sec-btn,
+    .woocommerce #respond input#submit,
+    .woocommerce a.button,
+    .woocommerce button.button,
+    .woocommerce input.button {
+        min-width: 180px;
+        min-height: 46px;
+    }
+
     .clip-path::before {
-        clip-path: polygon(100% 0, 100% 92%, 50% 100%, 0 92%, 0 3%);
+        width: 1000px;
+        --clip-path: polygon(100% 0,100% calc(100% - 100px),50% 100%,0 calc(100% - 100px),0 60px);
     }
 
     .clip-path.clip-path-02::before {
-        clip-path: polygon(100% 9%, 100% 100%, 0 100%, 0 9%, 50% 0);
+        --clip-path: polygon(50% 0,100% 100px,100% 100%,0 100%,0% 100px);
     }
 
     .clip-path.clip-path-03::before {
-        clip-path: polygon(100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
+        --clip-path: polygon(100% 0,100% calc(100% - 100px),50% 100%,0 calc(100% - 100px),0 0);
     }
 
     .clip-path.clip-path-04::before {
-        clip-path: polygon(100% 9%, 100% 93%, 0 98%, 0 9%, 50% 0);
+        --clip-path: polygon(50% 0,100% 80px,100% calc(100% - 100px),0 100%,0% 100px);
     }
 
     .inner-banner {
+        min-width: 1000px;
         min-height: 340px;
     }
 
@@ -4322,8 +4291,12 @@ a.prev.page-numbers {
         transform: translate(-50%, 0%);
     }
 
-    .top-fixed-btn .sec-btn{
-        width: 121px;
+    .top-fixed-btn .sec-btn {
+        min-width: 121px;
+    }
+
+    .top-fixed-btn .sec-btn.md-btn {
+        min-width: 121px;
     }
 
     .other-contant-list-box .sec-title {
@@ -4331,7 +4304,8 @@ a.prev.page-numbers {
     }
 
     .main-banner {
-        clip-path: polygon(0 0, 100% 0, 100% 75%, 100% 89%, 50% 100%, 0 89%);
+        width: 1000px;
+        --clip-path: polygon(100% 0,100% calc(100% - 100px),50% 100%,0 calc(100% - 100px),0 0);
     }
 
     .about-sec {
@@ -4370,15 +4344,12 @@ a.prev.page-numbers {
 
     .reviews-sec {
         padding: 147px 0 80px 0;
-        clip-path: polygon(50% 10%, 100% 0, 100% 100%, 0 100%, 0 0);
+        width: 1000px;
+        --clip-path: polygon(50% 100px,100% 0,100% 100%,0 100%,0 0);
     }
 
     .reviews-sec .reviews-sec-contant .sec-title {
         margin-bottom: 45px;
-    }
-
-    .reviews-slide {
-        max-width: unset;
     }
 
     .reviews-slide .reviews-contant-box {
@@ -4412,7 +4383,8 @@ a.prev.page-numbers {
 
     .footer-top-box {
         padding: 110px 0 40px 0;
-        clip-path: polygon(50% 0, 100% 9%, 100% 100%, 0 100%, 0 9%);
+        width: 1000px;
+        --clip-path: polygon(50% 0,100% 100px,100% 100%,0 100%,0% 100px);
     }
 
     .footer-logo-info-box .footer-logo-description-text {
@@ -4636,15 +4608,6 @@ a.prev.page-numbers {
         line-height: 36px;
     }
 
-    .sec-btn,
-    .woocommerce #respond input#submit,
-    .woocommerce a.button,
-    .woocommerce button.button,
-    .woocommerce input.button {
-        width: 180px;
-        height: 46px;
-    }
-
     .common-image {
         height: 500px;
     }
@@ -4665,7 +4628,7 @@ a.prev.page-numbers {
         width: 700px;
     }
 
-    .main-banner-discription-text {
+    .main-banner-contant p {
         margin-top: 25px;
         margin-bottom: 30px;
     }
@@ -4783,25 +4746,30 @@ a.prev.page-numbers {
     }
 
     .clip-path::before {
-        clip-path: polygon(100% 0, 100% 93%, 50% 100%, 0 93%, 0 3%);
+        width: 576px;
+        --clip-path: polygon(100% 0,100% calc(100% - 80px),50% 100%,0 calc(100% - 80px),0 40px);
     }
 
     .clip-path.clip-path-02::before {
-        clip-path: polygon(100% 8%, 100% 100%, 0 100%, 0 8%, 50% 0);
+        --clip-path: polygon(50% 0,100% 80px,100% 100%,0 100%,0% 80px);
     }
 
     .clip-path.clip-path-03::before {
-        clip-path: polygon(100% 0, 100% 91%, 50% 100%, 0 91%, 0 0);
+        --clip-path: polygon(100% 0,100% calc(100% - 80px),50% 100%,0 calc(100% - 80px),0 0);
     }
 
     .clip-path.clip-path-04::before {
-        clip-path: polygon(100% 8%, 100% 93%, 0 98%, 0 8%, 50% 0);
+        --clip-path: polygon(50% 0,100% 80px,100% calc(100% - 40px),0 100%,0% 100px);
     }
 
     .inner-banner {
         padding: 146px 0 70px 0;
         min-height: 290px;
-        clip-path: polygon(0 0, 100% 0, 100% 86%, 0 100%);
+        --clip-path: polygon(0 0,100% 0,100% calc(100% - 80px),0% 100%);
+    }
+
+    .inner-banner .container{
+        width: 100vw;
     }
 
     .common-image {
@@ -4813,14 +4781,20 @@ a.prev.page-numbers {
     }
 
     .main-banner {
-        padding: 156px 0 153px 0;
+        padding: 156px 0 143px 0;
+        width: 576px;
+        --clip-path: polygon(100% 0,100% calc(100% - 80px),50% 100%,0 calc(100% - 80px),0 0);
+    }
+
+    .main-banner .container {
+        width: 100vw;
     }
 
     .main-banner::before {
-        width: 550px;
+        width: 100%;
     }
 
-    .main-banner-contant .main-banner-discription-text p {
+    .main-banner-contant p {
         font-size: 22px;
         line-height: 30px;
     }
@@ -4858,6 +4832,12 @@ a.prev.page-numbers {
 
     .reviews-sec {
         padding: 124px 0 80px 0;
+        width: 576px;
+        --clip-path: polygon(50% 80px,100% 0,100% 100%,0 100%,0 0);
+    }
+
+    .reviews-sec .container{
+        width: 100vw;
     }
 
     .reviews-slide-text-info {
@@ -4895,7 +4875,12 @@ a.prev.page-numbers {
 
     .footer-top-box {
         padding: 110px 0 40px 0;
-        clip-path: polygon(50% 0, 100% 7%, 100% 100%, 0 100%, 0 7%);
+        width: 576px;
+        --clip-path: polygon(50% 0,100% 80px,100% 100%,0 100%,0% 80px);
+    }
+
+    .footer-top-box .container{
+        width: 100vw;
     }
 
     /*===============Residential Sevices [Page] CSS Start ===============*/
@@ -4945,7 +4930,7 @@ a.prev.page-numbers {
     }
 
     .brand-and-partners-sec {
-        padding: 20px 0 50px 0;
+        padding: 40px 0 50px 0;
     }
     /*===============Service and Repair [Page] CSS End ===============*/
 
@@ -5048,10 +5033,6 @@ a.prev.page-numbers {
 }
 
 @media screen and (max-width: 425px) {
-    .main-banner-btn {
-        flex-direction: column;
-    }
-
     .footer-bottom-other-link p a.footer-bottom-site-name {
         display: inline-block;
         margin-top: 8px;
@@ -5095,17 +5076,16 @@ a.prev.page-numbers {
     }
 
     .h3-title {
-        font-size: clamp(33px,9vw,41px);
+        font-size: clamp(33px, 9vw, 41px);
         line-height: 1.2;
     }
 
     .h2-title {
-        font-size: clamp(39px,10vw,48px);
+        font-size: clamp(39px, 10vw, 48px);
         line-height: 1.2;
     }
 
-    .inner-banner{
-        min-height: 250px;
+    .inner-banner {
         padding: 136px 0 50px 0;
     }
 
@@ -5119,37 +5099,16 @@ a.prev.page-numbers {
         height: 35px;
     }
 
-    .clip-path::before {
-        clip-path: polygon(100% 0,100% calc(100% - 50px),50% 100%,0 calc(100% - 50px),0 3%);
-    }
-
-    .clip-path.clip-path-02::before {
-        clip-path: polygon(50% 0,100% 50px,100% 100%,0 100%,0% 50px);
-    }
-
-    .clip-path.clip-path-03::before {
-        clip-path: polygon(100% 0,100% calc(100% - 50px),50% 100%,0 calc(100% - 50px),0 0);
-    }
-
-    .clip-path.clip-path-04::before {
-        clip-path: polygon(50% 0,100% 50px,100% calc(100% - 60px),0 100%,0% 50px);
-    }
-
     .main-banner {
-        padding: 146px 0 120px 0;
-        clip-path: polygon( 100% 0, 100% calc(100% - 50px), 50% 100%, 0 calc(100% - 50px), 0 0 );
+        padding: 156px 0 123px 0;
     }
 
-    .main-banner::before {
-        width: 400px;
-    }
-
-    .main-banner-contant .main-banner-discription-text p {
+    .main-banner-contant p {
         font-size: 20px;
         line-height: 28px;
     }
 
-    .residential-services-sec{
+    .residential-services-sec {
         padding-bottom: 70px;
     }
 
@@ -5181,11 +5140,6 @@ a.prev.page-numbers {
 
     .reviews-testimonial-slider .slick-arrow {
         right: 60px;
-    }
-
-    .footer-top-box {
-        padding: 70px 0 40px 0;
-        clip-path: polygon(50% 0,100% 50px,100% 100%,0 100%,0% 50px);
     }
 
     .footer-logo-info-box .footer-site-logo {
@@ -5264,7 +5218,7 @@ a.prev.page-numbers {
         margin-bottom: 20px;
     }
     /*===============Contact Us [Page] CSS End ===============*/
-    
+
     .modal-dialog {
         width: calc(100vw - 30px);
     }

@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="col-lg-7 wow fadeInRight">
-                    <div class="common-text-contant ml-auto">
+                    <div class="common-text-contant">
                         <div class="sec-title common-sec-title">
                             <h3 class="h3-title">residential or business generator maintenance</h3>
                         </div>
@@ -46,65 +46,68 @@
 </section>
 <!-- backup generator first section end -->
 
-<!-- off grid systems section start -->
-<section class="off-grid-systems-sec clip-path">
-    <div class="sec-wp">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-7 order-2 order-lg-1 wow fadeInLeft">
-                    <div class="common-text-contant">
-                        <div class="common-sec-title">
-                            <h4 class="h4-title">OFF GRID SYSTEMS</h4>
-                        </div>
-                        <div class="common-description-text">
-                            <p>Our basic off-grid system consists of solar, battery storage, and generator back up
-                                power. Whether you live in town or on the outskirts of the county line, we can provide a
-                                permanent self-generating power solution you can depend on for decades without fussing
-                                with the local utility company.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5 order-1 order-lg-1 wow fadeInRight">
-                    <div class="common-image back-img"
-                        style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/backup-generator-page-image02.jpg)">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- off grid systems section end -->
+<!--main backup generator section start -->
+<section class="main-backup-generator-sec">
 
-<!-- uninterruptable power systems section start -->
-<section class="uninterruptable-power-systems-sec">
-    <div class="sec-wp">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-5 wow fadeInLeft">
-                    <div class="common-image back-img"
-                        style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/backup-generator-page-image03.jpg)">
-                    </div>
-                </div>
-                <div class="col-lg-7 wow fadeInRight">
-                    <div class="common-text-contant ml-auto">
-                        <div class="common-sec-title">
-                            <h4 class="h4-title">Uninterruptable Power Systems (UPS)</h4>
+    <section class="services-sec odd off-grid-systems-sec clip-path">
+        <div class="sec-wp">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 order-2 order-lg-1 wow fadeInLeft">
+                        <div class="common-text-contant">
+                            <div class="common-sec-title">
+                                <h4 class="h4-title">OFF GRID SYSTEMS</h4>
+                            </div>
+                            <div class="common-description-text">
+                                <p>Our basic off-grid system consists of solar, battery storage, and generator back up
+                                    power. Whether you live in town or on the outskirts of the county line, we can provide a
+                                    permanent self-generating power solution you can depend on for decades without fussing
+                                    with the local utility company.</p>
+                            </div>
                         </div>
-                        <div class="common-description-text">
-                            <p>Uninterruptable power supplies (UPS) are devices that provide backup power to your
-                                computer and other devices in the event of a power outage. A UPS typically consists of a
-                                battery, an inverter, surge protection, and other electronics. When a drop in voltage
-                                occurs, the UPS detects it and switches over to battery backup. Components plugged into
-                                the UPS can then receive power for a limited amount of time (often ranging from 10 to 45
-                                minutes), until normal power is restored or the system can shut down properly.</p>
+                    </div>
+                    <div class="col-lg-5 order-1 order-lg-1 wow fadeInRight">
+                        <div class="common-image back-img"
+                            style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/backup-generator-page-image02.jpg)">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section class="services-sec even uninterruptable-power-systems-sec">
+        <div class="sec-wp">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 wow fadeInLeft">
+                        <div class="common-image back-img"
+                            style="background-image:url(<?php echo home_url(); ?>/wp-content/uploads/2023/07/backup-generator-page-image03.jpg)">
+                        </div>
+                    </div>
+                    <div class="col-lg-7 wow fadeInRight">
+                        <div class="common-text-contant">
+                            <div class="common-sec-title">
+                                <h4 class="h4-title">Uninterruptable Power Systems (UPS)</h4>
+                            </div>
+                            <div class="common-description-text">
+                                <p>Uninterruptable power supplies (UPS) are devices that provide backup power to your
+                                    computer and other devices in the event of a power outage. A UPS typically consists of a
+                                    battery, an inverter, surge protection, and other electronics. When a drop in voltage
+                                    occurs, the UPS detects it and switches over to battery backup. Components plugged into
+                                    the UPS can then receive power for a limited amount of time (often ranging from 10 to 45
+                                    minutes), until normal power is restored or the system can shut down properly.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </section>
-<!-- uninterruptable power systems section end -->
+<!--main backup generator section start -->
+
 
 <!-- how to prepare section start -->
 <section class="how-to-prepare-sec clip-path clip-path-04">

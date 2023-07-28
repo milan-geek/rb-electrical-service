@@ -8,9 +8,7 @@
                 <div class="col-lg-8">
                     <div class="main-banner-contant">
                         <h1 class="h1-title wow fadeInUp">Flat Rates, <span>Fast Service,</span> & No Surprises</h1>
-                        <div class="main-banner-discription-text wow fadeInUp">
-                            <p>Residential. Commercial. <span>Big or Small – We Do It All!</span></p>
-                        </div>
+                        <p class="wow fadeInUp">Residential. Commercial. Big or Small – We Do It All!</p>
                         <div class="main-banner-btn wow fadeInUp">
                             <a href="tel:(951) 201-0116" class="sec-btn" title="call (951) 201-0116">call <span class="for-des">(951) 201-0116</span> <span class="for-mob">Now</span></a>
                             <a href="<?php echo home_url(); ?>/contact-us/" class="sec-btn blue-btn" title="Contact Us">Contact Us</a>
@@ -34,7 +32,7 @@
                     </div>
                 </div>
                 <div class="col-lg-7 wow fadeInRight">
-                    <div class="common-text-contant ml-auto">
+                    <div class="common-text-contant">
                         <div class="sec-title common-sec-title">
                             <h3 class="h3-title">About Us</h3>
                         </div>
@@ -52,7 +50,7 @@
                             <div class="we-are-ready-to-take-text-info white-text">
                                 <h5 class="h5-title">We are ready to take on any project</h5>
                                 <div class="we-are-ready-to-take-discription-text">
-                                    <p>residential or commercial, big or small.</p>
+                                    <p>Residential or commercial, big or small.</p>
                                 </div>
                                 <div class="we-are-ready-to-take-btn">
                                     <a href="<?php echo home_url(); ?>/contact-us/" class="sec-btn white-btn" title="Contact Us for a FREE estimate">Contact
@@ -69,9 +67,9 @@
 <!-- about section end -->
 
 <!-- main services section start -->
-<section class="main-service-sec">
+<section class="main-service-sec" id="services">
 
-    <section class="residential-services-sec clip-path">
+    <section class="services-sec odd residential-services-sec clip-path">
         <div class="sec-wp">
             <div class="container">
                 <div class="row">
@@ -109,7 +107,7 @@
         </div>
     </section>
 
-    <section class="services-and-repair-services-sec">
+    <section class="services-sec even services-and-repair-services-sec">
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
@@ -119,7 +117,7 @@
                         </div>
                     </div>
                     <div class="col-lg-7 wow fadeInRight">
-                        <div class="common-text-contant ml-auto">
+                        <div class="common-text-contant">
                             <div class="common-sec-title">
                                 <h4 class="h4-title">Service and Repair</h4>
                             </div>
@@ -139,7 +137,7 @@
         </div>
     </section>
 
-    <section class="backup-generator-services-sec clip-path clip-path-02">
+    <section class="services-sec odd backup-generator-services-sec clip-path clip-path-02">
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
@@ -171,7 +169,7 @@
         </div>
     </section>
 
-    <section class="electric-charger-services-sec clip-path clip-path-03">
+    <section class="services-sec even electric-charger-services-sec clip-path clip-path-03">
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
@@ -181,7 +179,7 @@
                         </div>
                     </div>
                     <div class="col-lg-7 wow fadeInRight">
-                        <div class="common-text-contant ml-auto">
+                        <div class="common-text-contant">
                             <div class="common-sec-title">
                                 <h4 class="h4-title">Electric vehicle charger</h4>
                             </div>
@@ -200,7 +198,7 @@
         </div>
     </section>
 
-    <section class="commercial-services-sec">
+    <section class="services-sec odd commercial-services-sec">
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
@@ -250,54 +248,61 @@
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center reviews-testimonial-slider">
+            <div class="row justify-content-center">
                 <div class="col-lg-10">
-                    <div class="reviews-slide">
-                        <div class="reviews-contant-box">
-                            <div class="reviews-slide-text-info">
-                                <p>Fabulous customer service! Brian returned my call promptly and was able to give me a
-                                    very reasonable quote right over the phone. Jaime was wonderful! He was a
-                                    perfectionist installing 3 pendant lights, a ceiling fan, wall dimmer switch, and a
-                                    large TV wall mount. He was friendly, kind, and a very hard worker. Jaime exceeded
-                                    all my expectations!!! We will definitely use RB Electrical for our landscape
-                                    project. I highly recommend this company.</p>
-                            </div>
-                            <div class="reviews-slide-bottom-text">
-                                <h6>Teresa Bravo</h6>
+                    <div class="row reviews-testimonial-slider">
+                        <div class="col-lg-12">
+                            <div class="reviews-slide">
+                                <div class="reviews-contant-box">
+                                    <div class="reviews-slide-text-info" data-simplebar>
+                                        <p>Fabulous customer service! Brian returned my call promptly and was able to give me a
+                                            very reasonable quote right over the phone. Jaime was wonderful! He was a
+                                            perfectionist installing 3 pendant lights, a ceiling fan, wall dimmer switch, and a
+                                            large TV wall mount. He was friendly, kind, and a very hard worker. Jaime exceeded
+                                            all my expectations!!! We will definitely use RB Electrical for our landscape
+                                            project. I highly recommend this company.Fabulous customer service! Brian returned my call promptly and was able to give me a
+                                            very reasonable quote right over the phone. Jaime was wonderful! He was a
+                                            perfectionist installing 3 pendant lights, a ceiling fan, wall dimmer switch, and a
+                                            large TV wall mount. He was friendly</p>
+                                    </div>
+                                    <div class="reviews-slide-bottom-text">
+                                        <h6>Teresa Bravo</h6>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-10">
-                    <div class="reviews-slide">
-                        <div class="reviews-contant-box">
-                            <div class="reviews-slide-text-info">
-                                <p>Fabulous customer service! Brian returned my call promptly and was able to give me a
-                                    very reasonable quote right over the phone. Jaime was wonderful! He was a
-                                    perfectionist installing 3 pendant lights, a ceiling fan, wall dimmer switch, and a
-                                    large TV wall mount. He was friendly, kind, and a very hard worker. Jaime exceeded
-                                    all my expectations!!! We will definitely use RB Electrical for our landscape
-                                    project. I highly recommend this company.</p>
-                            </div>
-                            <div class="reviews-slide-bottom-text">
-                                <h6>Teresa Bravo</h6>
+                        <div class="col-lg-12">
+                            <div class="reviews-slide">
+                                <div class="reviews-contant-box">
+                                    <div class="reviews-slide-text-info" data-simplebar>
+                                        <p>Fabulous customer service! Brian returned my call promptly and was able to give me a
+                                            very reasonable quote right over the phone. Jaime was wonderful! He was a
+                                            perfectionist installing 3 pendant lights, a ceiling fan, wall dimmer switch, and a
+                                            large TV wall mount. He was friendly, kind, and a very hard worker. Jaime exceeded
+                                            all my expectations!!! We will definitely use RB Electrical for our landscape
+                                            project. I highly recommend this company.</p>
+                                    </div>
+                                    <div class="reviews-slide-bottom-text">
+                                        <h6>Teresa Bravo</h6>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-10">
-                    <div class="reviews-slide">
-                        <div class="reviews-contant-box">
-                            <div class="reviews-slide-text-info">
-                                <p>Fabulous customer service! Brian returned my call promptly and was able to give me a
-                                    very reasonable quote right over the phone. Jaime was wonderful! He was a
-                                    perfectionist installing 3 pendant lights, a ceiling fan, wall dimmer switch, and a
-                                    large TV wall mount. He was friendly, kind, and a very hard worker. Jaime exceeded
-                                    all my expectations!!! We will definitely use RB Electrical for our landscape
-                                    project. I highly recommend this company.</p>
-                            </div>
-                            <div class="reviews-slide-bottom-text">
-                                <h6>Teresa Bravo</h6>
+                        <div class="col-lg-12">
+                            <div class="reviews-slide">
+                                <div class="reviews-contant-box">
+                                    <div class="reviews-slide-text-info" data-simplebar>
+                                        <p>Fabulous customer service! Brian returned my call promptly and was able to give me a
+                                            very reasonable quote right over the phone. Jaime was wonderful! He was a
+                                            perfectionist installing 3 pendant lights, a ceiling fan, wall dimmer switch, and a
+                                            large TV wall mount. He was friendly, kind, and a very hard worker. Jaime exceeded
+                                            all my expectations!!! We will definitely use RB Electrical for our landscape
+                                            project. I highly recommend this company.</p>
+                                    </div>
+                                    <div class="reviews-slide-bottom-text">
+                                        <h6>Teresa Bravo</h6>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -420,6 +425,16 @@
             <div class="gallery-contant-box">
                 <a href="<?php echo home_url();?>/wp-content/uploads/2023/07/gallery-sec-image11.jpg" data-fancybox="gallery">
                     <div class="gallery-image back-img" style="background-image:url(<?php echo home_url();?>/wp-content/uploads/2023/07/gallery-sec-image11.jpg)"></div>
+                </a>
+            </div>
+            <div class="gallery-contant-box">
+                <a href="<?php echo home_url();?>/wp-content/uploads/2023/07/gallery-sec-image12.jpg" data-fancybox="gallery">
+                    <div class="gallery-image back-img" style="background-image:url(<?php echo home_url();?>/wp-content/uploads/2023/07/gallery-sec-image12.jpg)"></div>
+                </a>
+            </div>
+            <div class="gallery-contant-box">
+                <a href="<?php echo home_url();?>/wp-content/uploads/2023/07/gallery-sec-image12.jpg" data-fancybox="gallery">
+                    <div class="gallery-image back-img" style="background-image:url(<?php echo home_url();?>/wp-content/uploads/2023/07/gallery-sec-image12.jpg)"></div>
                 </a>
             </div>
             <div class="gallery-contant-box">

@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="col-lg-7 wow fadeInRight">
-                    <div class="common-text-contant ml-auto">
+                    <div class="common-text-contant">
                         <div class="sec-title common-sec-title">
                             <h3 class="h3-title">electrical service and repair</h3>
                         </div>
@@ -54,7 +54,7 @@
 <!--main services and repair section start -->
 <section class="main-services-and-repair-sec">
 
-    <section class="electrical-panel-sec clip-path">
+    <section class="services-sec odd electrical-panel-sec clip-path">
         <div class="sec-wp">
             <div class="container">
                 <div class="row">
@@ -90,7 +90,7 @@
         </div>
     </section>
 
-    <section class="led-lighting-sec">
+    <section class="services-sec even led-lighting-sec">
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
@@ -100,7 +100,7 @@
                         </div>
                     </div>
                     <div class="col-lg-7 wow fadeInRight">
-                        <div class="common-text-contant ml-auto">
+                        <div class="common-text-contant">
                             <div class="common-sec-title">
                                 <h4 class="h4-title">LED Lighting</h4>
                             </div>
@@ -116,7 +116,7 @@
         </div>
     </section>
 
-    <section class="backup-generator-sec clip-path clip-path-04">
+    <section class="services-sec odd backup-generator-sec clip-path clip-path-04">
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
@@ -144,7 +144,7 @@
         </div>
     </section>
 
-    <section class="brand-and-partners-sec">
+    <section class="services-sec even brand-and-partners-sec">
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
@@ -154,7 +154,7 @@
                         </div>
                     </div>
                     <div class="col-lg-7 wow fadeInRight">
-                        <div class="common-text-contant ml-auto">
+                        <div class="common-text-contant">
                             <div class="common-sec-title">
                                 <h4 class="h4-title">Brands & Partners</h4>
                             </div>

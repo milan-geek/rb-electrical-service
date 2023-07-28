@@ -25,7 +25,7 @@
                     </div>
                 </div>
                 <div class="col-lg-7 wow fadeInRight">
-                    <div class="common-text-contant ml-auto">
+                    <div class="common-text-contant">
                         <div class="sec-title common-sec-title">
                             <h3 class="h3-title">Your Electrical Installation and Repair Specialist in Menifee, Ca</h3>
                         </div>
@@ -48,7 +48,7 @@
 <!--main residential section start -->
 <section class="main-residential-sec">
 
-    <section class="electrical-code-sec clip-path">
+    <section class="services-sec odd electrical-code-sec clip-path">
         <div class="sec-wp">
             <div class="container">
                 <div class="row">
@@ -83,7 +83,7 @@
         </div>
     </section>
 
-    <section class="dedicated-circuitry-sec">
+    <section class="services-sec even dedicated-circuitry-sec">
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
@@ -93,7 +93,7 @@
                         </div>
                     </div>
                     <div class="col-lg-7 wow fadeInRight">
-                        <div class="common-text-contant ml-auto">
+                        <div class="common-text-contant">
                             <div class="common-sec-title">
                                 <h4 class="h4-title">Dedicated Circuitry </h4>
                             </div>
@@ -110,7 +110,7 @@
         </div>
     </section>
 
-    <section class="decorative-lighting-sec clip-path clip-path-02">
+    <section class="services-sec odd decorative-lighting-sec clip-path clip-path-02">
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
@@ -138,7 +138,7 @@
         </div>
     </section>
 
-    <section class="ceiling-fans-sec clip-path clip-path-03">
+    <section class="services-sec even ceiling-fans-sec clip-path clip-path-03">
         <div class="sec-wp">
             <div class="container">
                 <div class="row align-items-center">
@@ -148,7 +148,7 @@
                         </div>
                     </div>
                     <div class="col-lg-7 wow fadeInRight">
-                        <div class="common-text-contant ml-auto">
+                        <div class="common-text-contant">
                             <div class="common-sec-title">
                                 <h4 class="h4-title">Ceiling Fans</h4>
                             </div>

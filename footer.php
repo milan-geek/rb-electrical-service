@@ -16,9 +16,9 @@
 		<div class="sec-wp">
 			<div class="container">
 				<div class="row">
-					<div class="col-xl-7 col-lg-7 wow fadeInLeft">
+					<div class="col-lg-5 wow fadeInLeft">
 						<div class="footer-logo-info-box">
-							<a href="#" class="footer-site-logo" title="RB Electrical Service">
+							<a href="<?php echo home_url(); ?>" class="footer-site-logo" title="RB Electrical Service">
 								<img src="<?php echo home_url(); ?>/wp-content/uploads/2023/07/footer-logo.png" alt="RB Electrical Service">
 							</a>
 							<div class="footer-logo-description-text">
@@ -34,7 +34,6 @@
 								<li><a href="https://www.instagram.com/rb.electrical.service/" class="social-icon" title="Follow Now" target="_blank"><i
 											class="fa-brands fa-instagram"></i></a></li>
 							</ul>
-							
 							<ul class="contact-info">
 								<li>
 									<a href="https://goo.gl/maps/A4xss61vLGEfSVVD6" title="27393 Finale Ct., Menifee, CA 92584" target="_blank">
@@ -57,7 +56,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-xl-4 col-lg-3 wow fadeInRight">
+					<div class="col-lg-4 wow fadeInRight">
 						<div class="footer-page-link-box white-text">
 							<h6 class="h6-title">Services</h6>
 							<div class="footer-page-link">
@@ -72,7 +71,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-1 col-lg-2 wow fadeInRight">
+					<div class="col-lg-3 wow fadeInRight">
 						<div class="footer-page-link-box white-text">
 							<h6 class="h6-title">Navigation</h6>
 							<div class="footer-page-link">
@@ -124,8 +123,8 @@
 		<i class="fa-solid fa-angles-up"></i>
 	</div>
 	<div class="top-fixed-btn">
-		<a href="tel:(951) 201-0116" class="sec-btn" title="(951) 201-0116">call <span class="for-des">(951) 201-0116</span> <span class="for-mob">Now</span></a>
-		<a href="<?php echo home_url(); ?>/contact-us/" class="sec-btn contact-us-btn" title="Contact Us">Contact Us</a>
+		<a href="tel:(951) 201-0116" class="sec-btn md-btn" title="(951) 201-0116">call <span class="for-des">(951) 201-0116</span> <span class="for-mob">Now</span></a>
+		<a href="<?php echo home_url(); ?>/contact-us/" class="sec-btn contact-btn" title="Contact Us">Contact Us</a>
 	</div>
 </footer>
 

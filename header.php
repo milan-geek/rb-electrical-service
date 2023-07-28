@@ -51,7 +51,7 @@
 								);
 								?>
 								<div class="header-btn">
-									<a href="tel:(951) 201-0116" class="sec-btn" title="call (951) 201-0116">call <span class="for-des">(951) 201-0116</span> <span class="for-mob">Now</span></a>
+									<a href="tel:(951) 201-0116" class="sec-btn md-btn" title="call (951) 201-0116">call <span class="for-des">(951) 201-0116</span> <span class="for-mob">Now</span></a>
 								</div>
 							</div>
 						</nav>
