@@ -124,8 +124,28 @@
 	</div>
 	<div class="top-fixed-btn">
 		<a href="tel:(951) 201-0116" class="sec-btn md-btn" title="(951) 201-0116">call <span class="for-des">(951) 201-0116</span> <span class="for-mob">Now</span></a>
-		<a href="<?php echo home_url(); ?>/contact-us/" class="sec-btn contact-btn" title="Contact Us">Contact Us</a>
+		<a href="javascript:void(0)" class="sec-btn contact-btn" title="Contact Us" data-bs-toggle="modal" data-bs-target="#contact_us_Modal">Contact Us</a>
 	</div>
+
+		<!-- Modal Start -->
+		<div class="modal common-popup" id="contact_us_Modal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="popup-title">
+						<h2 class="h2-title">Schedule an <span>Estimate</span></h2>
+						<button type="button" class="close close-popup" data-bs-dismiss="modal"><i class="fas fa-times"></i></button>
+					</div>
+					<div class="common-popup-overflow">
+						<div class="common-popup-text" data-simplebar>
+							<div class="contact-form">
+								<?php echo do_shortcode( '[contact-form-7 id="111" title="Contact form 1"]' ); ?>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal End -->
 </footer>
 
 </div>

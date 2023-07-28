@@ -1622,6 +1622,7 @@ a:hover {
     padding: 5px;
     cursor: pointer;
     outline: none !important;
+    border: none;
     transition: 0.3s;
     overflow: hidden;
     position: relative;
@@ -1923,13 +1924,13 @@ button.close {
     color: var(--white-color);
     border-radius: 0;
     outline: none !important;
+    border: none;
     z-index: 2;
     transition: 0.3s;
 }
 
 button.close:hover {
-    background: var(--secondary-color);
-    color: var(--dark-color);
+    background: var(--green-color);
 }
 
 .modal-dialog {
@@ -5033,6 +5034,11 @@ a.prev.page-numbers {
 }
 
 @media screen and (max-width: 425px) {
+    .popup-title .h2-title {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
     .footer-bottom-other-link p a.footer-bottom-site-name {
         display: inline-block;
         margin-top: 8px;
